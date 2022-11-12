@@ -138,7 +138,7 @@ a {
     margin: 0;
 }
 */
-.left_aside{
+.left_aside {
     padding: 35px;
 }
 
@@ -218,91 +218,97 @@ a {
 /* Main Style */
 
 /* Main Section || Start */
-.main_content{
+.main_content {
     background-color: #f5f5f5c2;
 }
+
 /* Main Section || End */
 
-.service_info:nth-child(odd){
-    /* background-color: #d3d3d3; */
-    padding: 100px 0;
-}
-.service_info:nth-child(even){
+
+.service_info:nth-child(even) {
     /* background-color: #ebebeb; */
     padding: 100px 0;
 }
-.service_info .single_part{
+
+.service_info .single_part {
     margin: 10rem 0;
 }
 
 
 
 /* Line Breaker CSS || Start */
-.line_breaker{
+.line_breaker {
     display: flex;
     flex-wrap: nowrap;
     position: relative;
     justify-content: center;
     align-items: center;
 }
-.line_breaker .line{
+
+.line_breaker .line {
     min-height: 1px;
     width: 100%;
-    background-color: #585a5f;
+    background-color: #cecece;
 }
 
-.line_breaker .icon_box{
+.line_breaker .icon_box {
     position: absolute;
     width: 30px;
     height: 30px;
     left: 50%;
-    border: 1px solid #585a5f;
+    border: 1px solid #cecece;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
 }
-.line_breaker .icon_box svg{
+
+.line_breaker .icon_box svg {
     margin: 3px;
-    color: #585a5f;
+    color: #cecece;
 }
 
 /* Line Breaker CSS || End */
 
 
 /* Service ACC CSS || Start */
-.service_info_left{
+.service_info_left {
     opacity: 0;
 }
-.opacity_100{
+
+.opacity_100 {
     transition: 2s ease;
-    opacity:100%;
+    opacity: 100%;
 }
+
 .service_info_left .accordion,
-.service_info_left .accordion-button{
+.service_info_left .accordion-button {
     background-color: #fdba13;
 }
 
-.service_info_left .accordion-button{
+.service_info_left .accordion-button {
     padding: 10px;
 }
-.service_info_left .accordion-button:not(.collapsed){
+
+.service_info_left .accordion-button:not(.collapsed) {
     color: #000;
 }
-.service_info_left .accordion-body{
+
+.service_info_left .accordion-body {
     /* border-left: 1px solid #ddd; */
     border: none;
     padding: 0;
     background-color: #fff
-
 }
-.service_info_left .accordion-body ul{
+
+.service_info_left .accordion-body ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.service_info_left .accordion-body ul li{
+
+.service_info_left .accordion-body ul li {
     /* background-color: #000; */
     color: #ddd;
     border-left: 8px solid transparent;
@@ -310,16 +316,18 @@ a {
     margin: 0;
     position: relative;
 }
-.service_info_left .accordion-body ul li a{
+
+.service_info_left .accordion-body ul li a {
     color: #000;
 }
-.service_info_left .accordion-body ul li.active{
+
+.service_info_left .accordion-body ul li.active {
     border: 1px solid #fdba13;
     border-left: 8px solid #fdba13;
     /* background-color: #f7f7f7; */
 }
 
-.service_info_left .accordion-body ul li.active::after{
+.service_info_left .accordion-body ul li.active::after {
     content: "";
     width: 21px;
     background-color: #fdba13;
@@ -328,7 +336,8 @@ a {
     height: 1px;
     right: -21px;
 }
-.s_card{
+
+.s_card {
     position: relative;
     padding-left: 50px;
     margin-left: 20px;
@@ -337,10 +346,12 @@ a {
     padding-top: 3rem;
     text-align: justify;
 }
-.s_card h4{
+
+.s_card h4 {
     margin-bottom: 2rem;
 }
-.s_card_absolute{
+
+.s_card_absolute {
     height: 200px;
     top: 35%;
     position: absolute;
@@ -351,12 +362,12 @@ a {
     background: #fff;
 }
 
-.s_card_absolute_child{
+.s_card_absolute_child {
     width: 100%;
     position: relative;
 }
 
-.s_card_absolute::before{
+.s_card_absolute::before {
     content: '';
     position: absolute;
     top: 0;
@@ -369,7 +380,8 @@ a {
     width: 20px;
     border-radius: 0 0 150px 150px;
 }
-.s_card_absolute::after{
+
+.s_card_absolute::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -383,26 +395,28 @@ a {
     border-radius: 150px 150px 0 0;
 }
 
-.s_card_absolute ul{
+.s_card_absolute ul {
     margin: 0;
     padding: 1rem;
-    list-style:none;
+    list-style: none;
 }
-.s_card_absolute ul li{
+
+.s_card_absolute ul li {
     font-size: 12px;
 }
 
-.s_card_absolute h5{
+.s_card_absolute h5 {
     font-size: 15px;
     font-weight: 400;
 }
 
-.s_card_absolute_2{
+.s_card_absolute_2 {
     position: absolute;
     bottom: -40px;
     right: -75px;
 }
-.s_card_absolute_2 a{
+
+.s_card_absolute_2 a {
     min-width: 450px;
     padding: 30px 0;
     border: 1px solid #fdba13;
@@ -410,21 +424,69 @@ a {
     /* background-color: #fdba13; */
     background-color: #fddb3a;
 }
+
 .s_card_absolute_2 a:active,
 .s_card_absolute_2 a:hover,
-.s_card_absolute_2 a:focus{
+.s_card_absolute_2 a:focus {
     background-color: #fdba13 !important;
     border: 1px solid #fdba13 !important;
 }
-.s_card_absolute_2 svg{
+
+.s_card_absolute_2 svg {
     font-weight: 300;
 }
+
 /* Service ACC CSS || End */
 /* Line Breaker CSS || End */
 
 
 
+/* TypeWriter || Start */
+span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+}
 
+span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.padding_40{
+    padding: 0 40px;
+}
+span.cursor.typing {
+    animation: none;
+}
+
+.animate_text_type{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+    49% {
+        background-color: #ccc;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #ccc;
+    }
+}
+
+
+
+/* TypeWriter || End */
 
 
 
