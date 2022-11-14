@@ -52,12 +52,13 @@ let serviceNameData = [
 
 let industry_nameArr = [
     'Software Industry',
-    'Healthcare industry',
+    'Healthcare Industry',
     'Legal Industry',
+    'Real Estate Industry',
     'Fashion & Beauty',
     'Retail Industry',
-    'E-Commerce Industry',
-    'Finance industry'
+    'E-commerce Industry',
+    'Finance Industry'
 ];
 
 
@@ -66,13 +67,16 @@ function industry_nameLoop() {
         (function (index) {
             setTimeout(function () {
                 $('#industry_name').html(industry_nameArr[index]);
+                $('#industry_name').addClass('animate_fadeInUp');
+                $('#industry_name').removeClass('animate_fadeInUp');
+                // $('#industry_name').removeClass('animate_fadeOutUp');
                 $(`.industry_area_img_no`).addClass('opacity_0');
                 $(`.industry_area_img_no:eq( ${index} )`).removeClass('opacity_0');
                 $(`.industry_area_img_no:eq( ${index} )`).addClass('opacity_100');
             }, index * 3000);
         })(i);
     }
-    return industry_nameLoop();
+    // return industry_nameLoop();
 }
 
 industry_nameLoop();
