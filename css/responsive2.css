@@ -199,6 +199,7 @@ a {
 
 .accordion-button::after {
     scale: 60%;
+    filter: invert(1);
 }
 
 .right_aside .accordion-button,
@@ -207,11 +208,12 @@ a {
     padding: 0;
     background-color: transparent;
     border: none;
+    color: #fff;
 }
 
 .right_aside .accordion-button:not(.collapsed) {
     box-shadow: none;
-    color: #000;
+    color: #fff;
 }
 
 /* Main Style */

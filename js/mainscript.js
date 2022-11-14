@@ -50,19 +50,30 @@ let serviceNameData = [
 //     // }, 1000);
 // }
 
-let industry_nameArr = ['1', '2','3'];
+let industry_nameArr = [
+    'Software Industry',
+    'Healthcare industry',
+    'Legal Industry',
+    'Fashion & Beauty',
+    'Retail Industry',
+    'E-Commerce Industry',
+    'Finance industry'
+];
 
-for (let i = 0; i < industry_nameArr.length; i++) {
-setInterval(() => {
-    // return industry_nameSin = industry_nameArr[i];
-    industry_name(industry_nameArr[i]);
-}, 2000);
+
+function industry_nameLoop() {
+    for (var i = 0; i < industry_nameArr.length; i++) {
+        (function (index) {
+            setTimeout(function () {
+                $('#industry_name').html(industry_nameArr[index]);
+            }, index * 3000);
+        })(i);
+    }
+    return industry_nameLoop();
 }
 
-// setInterval(() => {
-//     industry_name(industry_nameArr[i]);
-// }, 2000);
+industry_nameLoop();
 
-function industry_name(name){
-    $('#industry_name').html(name);
-}
+// setInterval(function () {
+//     industry_nameLoop();
+// }, interval);
