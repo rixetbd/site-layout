@@ -291,7 +291,12 @@ a {
     transition: 2s ease;
     opacity: 100%;
 }
+.opacity_0 {
+    transition: .5s ease;
+    opacity: 0%;
+}
 
+.service_info_left_menu .accordion,
 .service_info_left .accordion,
 .service_info_left .accordion-button {
     background-color: #fdba13;
@@ -301,10 +306,25 @@ a {
     padding: 10px;
 }
 
+.service_info_left_menu .accordion-button {
+    padding: 6px 10px;
+}
+
+
+.service_info_left_menu .accordion-button:not(.collapsed) {
+    color: #000;
+}
 .service_info_left .accordion-button:not(.collapsed) {
     color: #000;
 }
 
+.service_info_left_menu .accordion-body {
+    /* border-left: 1px solid #ddd; */
+    border: none;
+    padding: 0;
+    background-color: #fff
+}
+.service_info_left_menu .accordion-body ,
 .service_info_left .accordion-body {
     /* border-left: 1px solid #ddd; */
     border: none;
@@ -312,6 +332,7 @@ a {
     background-color: #fff
 }
 
+.service_info_left_menu .accordion-body ul,
 .service_info_left .accordion-body ul {
     padding: 0;
     margin: 0;
@@ -331,12 +352,14 @@ a {
     color: #000;
 }
 
+.service_info_left_menu .accordion-body ul li.active,
 .service_info_left .accordion-body ul li.active {
     border: 1px solid #fdba13;
     border-left: 8px solid #fdba13;
     /* background-color: #f7f7f7; */
 }
 
+.service_info_left_menu .accordion-body ul li.active::after,
 .service_info_left .accordion-body ul li.active::after {
     content: "";
     width: 21px;

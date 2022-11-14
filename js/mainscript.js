@@ -66,6 +66,9 @@ function industry_nameLoop() {
         (function (index) {
             setTimeout(function () {
                 $('#industry_name').html(industry_nameArr[index]);
+                $(`.industry_area_img_no`).addClass('opacity_0');
+                $(`.industry_area_img_no:eq( ${index} )`).removeClass('opacity_0');
+                $(`.industry_area_img_no:eq( ${index} )`).addClass('opacity_100');
             }, index * 3000);
         })(i);
     }
