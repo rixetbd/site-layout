@@ -296,7 +296,6 @@ a {
     opacity: 0%;
 }
 
-.service_info_left_menu .accordion,
 .service_info_left .accordion,
 .service_info_left .accordion-button {
     background-color: #fdba13;
@@ -307,26 +306,35 @@ a {
 }
 
 .service_info_left_menu .accordion-button {
-    padding: 6px 10px;
+    padding: 6px 0;
+    background-color: #213d54;
+    color: #ffffffa1;
 }
 
 
 .service_info_left_menu .accordion-button:not(.collapsed) {
-    color: #000;
+    border-bottom: 1px solid #fff;
+    color: #fff;
 }
 .service_info_left .accordion-button:not(.collapsed) {
     color: #000;
 }
 
-.service_info_left_menu .accordion-body {
-    /* border-left: 1px solid #ddd; */
-    border: none;
-    padding: 0;
-    background-color: #fff
+.service_info_left_menu .accordion-item{
+    background-color: transparent;
 }
-.service_info_left_menu .accordion-body ,
+.service_info_left_menu .accordion-body{
+    overflow: hidden;
+    background-color: #1a3246;
+    border-left: 0;
+    /* border-bottom: 1px solid #fff; */
+    padding: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 .service_info_left .accordion-body {
     /* border-left: 1px solid #ddd; */
+    color: #000;
     border: none;
     padding: 0;
     background-color: #fff
@@ -348,11 +356,38 @@ a {
     position: relative;
 }
 
+
+.service_info_left_menu .accordion-body ul li{
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: #2b4a64;
+    margin: 1px 0;
+}
+
+.service_info_left_menu .accordion-body ul li:hover,
+.service_info_left_menu .accordion-body ul li.active{
+    background-color: #406585 !important;
+}
+.service_info_left_menu .accordion-body ul li a{
+    color: #c9c9c9;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.service_info_left_menu .accordion-body ul li.active a,
+.service_info_left_menu .accordion-body ul li:hover a
+{color: #fff;}
+
+.service_info_left_menu .accordion-body ul li a svg{
+    margin-right: 10px;
+}
+
+
 .service_info_left .accordion-body ul li a {
     color: #000;
 }
 
-.service_info_left_menu .accordion-body ul li.active,
 .service_info_left .accordion-body ul li.active {
     border: 1px solid #fdba13;
     border-left: 8px solid #fdba13;
@@ -378,6 +413,7 @@ a {
     padding-bottom: 4rem;
     padding-top: 3rem;
     text-align: justify;
+    margin: 10rem 0;
 }
 
 .s_card h4 {
@@ -612,9 +648,7 @@ span.cursor.typing {
 /* ================= Navbar Design || Start =================== */
 
 nav {
-    position: fixed;
     width: 60px;
-    height: 100%;
     transition: .5s;
     overflow: hidden;
 }
@@ -629,8 +663,6 @@ nav.active {
 
 nav ul {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 0;
 }
@@ -677,9 +709,10 @@ nav ul li a .icon {
     position: relative;
     display: block;
     min-width: 60px;
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
+    font-size: 14px;
 }
 
 nav ul li a .title {

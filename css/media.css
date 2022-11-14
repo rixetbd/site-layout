@@ -63,7 +63,7 @@
 .left_aside,
 .right_aside {
     position: fixed;
-    top: 10vh;
+    top: 5vh;
     width: 17.5%;
     min-height: 50vh;
 }
