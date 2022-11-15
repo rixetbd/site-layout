@@ -247,6 +247,7 @@ a {
     position: relative;
     justify-content: center;
     align-items: center;
+    z-index:999999;
 }
 
 .line_breaker .line {
@@ -419,21 +420,27 @@ a {
     top: 50%;
     height: 1px;
     right: -21px;
+
+}
+
+.bg_theme_1{
+    /* background: #5a80a0; */
+    background: #9bc4e7;
 }
 
 .s_card {
     position: relative;
-    padding-left: 50px;
-    margin-left: 20px;
-    padding-right: 120px;
-    padding-bottom: 4rem;
-    padding-top: 3rem;
+    /* margin-left: 20px; */
     text-align: justify;
-    margin: 10rem 0;
+    /* margin: 10rem 0; */
 }
 
 .s_card h4 {
     margin-bottom: 2rem;
+}
+
+.s_card_content{
+    padding: 150px 50px;
 }
 
 .s_card_absolute {
@@ -497,17 +504,54 @@ a {
 
 .s_card_absolute_2 {
     position: absolute;
-    bottom: -40px;
-    right: -75px;
+    bottom: 50px;
+    right: 50px;
+}
+/* ============ service_card_section =============== */
+.service_card_section {
+    background-color: #9bc4e7 !important;
+}
+.service_card_section_2{
+    background-color: #c2d0dc !important;
+}
+.service_card_section .s_card_absolute_2 a,
+.service_card_section .rotate_box_main{
+    background-color: #c2d0dc !important;
+}
+.service_card_section_2 .s_card_absolute_2 a,
+.service_card_section_2 .rotate_box_main{
+    background-color: #9bc4e7 !important;
 }
 
-.s_card_absolute_2 a {
-    min-width: 450px;
-    padding: 30px 0;
+/* ============ service_card_section =============== */
+/* .s_card_absolute_2 a {
+    padding: 15px 35px 20px;
     border: 1px solid #fdba13;
     margin-left: 15px;
-    /* background-color: #fdba13; */
     background-color: #fddb3a;
+} */
+
+.s_card_absolute_2 a {
+    padding: 15px 35px 20px;
+    border: none;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.s_card_absolute_2 a:hover {
+    padding: 15px 35px 20px;
+    border: none;
+    margin-left: 15px;
+    background-color: #fddb3a;
+}
+
+
+
+.s_card_absolute_2 span.text_1{
+    color: #000000bb;
+}
+.s_card_absolute_2 span.text_2{
+    display: block;
+    font-size: 18px;
 }
 
 .s_card_absolute_2 a:active,
@@ -519,6 +563,10 @@ a {
 
 .s_card_absolute_2 svg {
     font-weight: 300;
+}
+.s_card .text_600,
+.s_card blockquote{
+    font-weight: 600;
 }
 
 /* Service ACC CSS || End */
@@ -657,7 +705,7 @@ padding-top: 8rem;
 } */
 
 #header_top {
-    background-image: url('../img/top_bg.png') !important;
+    /* background-image: url('../img/top_bg.png') !important; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -816,16 +864,17 @@ header {
 }
 
 .industry_26_css_top {
-    border-left: 5px solid #484a7d;
+    border-left: 5px solid #fdba13;
     padding-left: 40px;
     margin-bottom: 10px;
 }
 
 .industry_26_css_top h3.in_sub_title {
     padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin: 0;
+    color: #6c6c6c;
 }
 
 .industry_26_css_top h4.in_sub_title {
@@ -833,15 +882,15 @@ header {
 }
 
 .industry_26_css_top .in_title {
-    font-size: 40px;
+    font-size: 25px;
     padding-top: 20px;
     padding-right: 5px;
-    color: #484a7d;
+    color: #6c6c6c;
 }
 
 .industry_26_css_bottom {
     position: relative;
-    border-left: 1px solid #484a7d;
+    border-left: 1px solid #fdba13;
     padding-left: 40px;
 }
 
@@ -870,6 +919,8 @@ header {
 /* ================== Industry Box || End ===================== */
 
 .focus_tilte_with_line {
+    font-size: 40px;
+    color: #484a7d;
     position: relative;
     margin-bottom: 2rem;
 }
@@ -888,6 +939,9 @@ header {
 #industry_name {
     font-size: 1.2rem;
     font-weight: 600;
+    /* text-align: center;
+    display: inline-block;
+    width: 250px; */
 }
 
 .animate_fadeInUp {
@@ -923,3 +977,43 @@ header {
         transform: translate3d(0, -100%, 0)
     }
 }
+
+
+.rotate_box{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.rotate_box div hr{margin: 0.15rem 0;}
+.rotate_box div{
+    text-align: center;
+    transform: rotate(-90deg);
+    width: 100%;
+    min-width: 900px;
+}
+.rotate_box div h6{font-size: 16px;}
+.rotate_box div h5{font-size: 20px;}
+.rotate_box div h4{font-size: 30px;}
+
+.rotate_box div h6,
+.rotate_box div h5,
+.rotate_box div h4{
+    padding: 5px 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+/* .rotate_box div h6::after, */
+/* .rotate_box div h5::after,
+.rotate_box div h4::after{
+    position: absolute;
+    content: "";
+    background-color: #00000085;
+    width: 100%;
+    height: 1px;
+    top: -25%;
+    left: 0;
+} */
