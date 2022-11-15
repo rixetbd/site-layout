@@ -63,11 +63,20 @@
         width: 80%;
     }
 
+    .left_aside,
+    .right_aside {
+        position: fixed;
+        top: 5vh;
+        width: 17.5%;
+        min-height: 50vh;
+    }
+
     nav ul {
         position: absolute;
-        width: 20%;
+        width: 100%;
         padding: 0;
     }
+
 }
 
 
