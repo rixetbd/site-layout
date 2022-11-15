@@ -39,6 +39,7 @@ li {
 }
 
 @media (min-width:576px) {
+
     .di_container,
     .di_container-sm {
         max-width: 540px
@@ -126,6 +127,7 @@ li {
 .border_one1 {
     border: 1px solid #fdba13;
 }
+
 .border_one1_side {
     border-left: 1px solid #fdba13;
     border-right: 1px solid #fdba13;
@@ -247,7 +249,7 @@ a {
     position: relative;
     justify-content: center;
     align-items: center;
-    z-index:999999;
+    z-index: 999999;
 }
 
 .line_breaker .line {
@@ -423,7 +425,7 @@ a {
 
 }
 
-.bg_theme_1{
+.bg_theme_1 {
     /* background: #5a80a0; */
     background: #9bc4e7;
 }
@@ -439,7 +441,7 @@ a {
     margin-bottom: 2rem;
 }
 
-.s_card_content{
+.s_card_content {
     padding: 150px 50px;
 }
 
@@ -507,19 +509,23 @@ a {
     bottom: 50px;
     right: 50px;
 }
+
 /* ============ service_card_section =============== */
 .service_card_section {
     background-color: #9bc4e7 !important;
 }
-.service_card_section_2{
+
+.service_card_section_2 {
     background-color: #c2d0dc !important;
 }
+
 .service_card_section .s_card_absolute_2 a,
-.service_card_section .rotate_box_main{
+.service_card_section .rotate_box_main {
     background-color: #c2d0dc !important;
 }
+
 .service_card_section_2 .s_card_absolute_2 a,
-.service_card_section_2 .rotate_box_main{
+.service_card_section_2 .rotate_box_main {
     background-color: #9bc4e7 !important;
 }
 
@@ -537,6 +543,7 @@ a {
     margin-left: 15px;
     background-color: #fff;
 }
+
 .s_card_absolute_2 a:hover {
     padding: 15px 35px 20px;
     border: none;
@@ -546,10 +553,11 @@ a {
 
 
 
-.s_card_absolute_2 span.text_1{
+.s_card_absolute_2 span.text_1 {
     color: #000000bb;
 }
-.s_card_absolute_2 span.text_2{
+
+.s_card_absolute_2 span.text_2 {
     display: block;
     font-size: 18px;
 }
@@ -564,8 +572,9 @@ a {
 .s_card_absolute_2 svg {
     font-weight: 300;
 }
+
 .s_card .text_600,
-.s_card blockquote{
+.s_card blockquote {
     font-weight: 600;
 }
 
@@ -601,9 +610,11 @@ span.cursor.typing {
     font-size: 50px;
     font-weight: 600;
 }
-.briefing_div_pt{
-padding-top: 8rem;
+
+.briefing_div_pt {
+    padding-top: 8rem;
 }
+
 @keyframes blink {
     0% {
         background-color: #ccc;
@@ -979,27 +990,42 @@ header {
 }
 
 
-.rotate_box{
+.rotate_box {
     min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-.rotate_box div hr{margin: 0.15rem 0;}
-.rotate_box div{
+
+.rotate_box div hr {
+    margin: 0.15rem 0;
+}
+
+.rotate_box div {
     text-align: center;
     transform: rotate(-90deg);
     width: 100%;
     min-width: 900px;
 }
-.rotate_box div h6{font-size: 16px;}
-.rotate_box div h5{font-size: 20px;}
-.rotate_box div h4{font-size: 30px;}
+
+.rotate_box div h6 {
+    font-size: 16px;
+    opacity: 50%;
+}
+
+.rotate_box div h5 {
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.rotate_box div h4 {
+    font-size: 30px;
+}
 
 .rotate_box div h6,
 .rotate_box div h5,
-.rotate_box div h4{
+.rotate_box div h4 {
     padding: 5px 0;
     margin: 0;
     width: 100%;
