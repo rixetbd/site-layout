@@ -78,7 +78,7 @@
 
     .aside {
         min-height: 100vh;
-        width: 20%;
+        width: 17.5%;
         background-color: #213d54;
     }
 
@@ -86,26 +86,38 @@
         width: 17.5%;
     }
 
-    .right_aside_root {
+    /* .right_aside_root {
         display: none !important;
-    }
+    } */
 
     .main_content {
-        width: 80%;
+        width: 65%;
     }
+
+    .left_aside{left: 0;}
 
     .left_aside,
     .right_aside {
         position: fixed;
         top: 5vh;
-        width: 17.5%;
+        width: 17%;
         min-height: 50vh;
     }
+
+    .right_aside {padding: 0 !important;}
 
     nav ul {
         position: absolute;
         width: 100%;
         padding: 0;
+    }
+
+    .service_info_left_menu {
+        padding:0;
+        margin-top: 0;
+        width: 100%;
+        float: right;
+        margin-right: 0;
     }
 
 }
