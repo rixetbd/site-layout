@@ -100,12 +100,12 @@
                                         aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             <ul>
-                                                <li class=""><a href="#"> <i class="fas fa-th-large"></i> Lead
+                                                <li class="service_index"><a href="#"> <i class="fas fa-th-large"></i> Lead
                                                         Generation</a></li>
-                                                <li><a href="#"><i class="fas fa-th-large"></i> SEO</a></li>
-                                                <li class="active"><a href="#"><i class="fas fa-th-large"></i> Email
+                                                <li class="service_index"><a href="#"><i class="fas fa-th-large"></i> SEO</a></li>
+                                                <li class="service_index"><a href="#"><i class="fas fa-th-large"></i> Email
                                                         Marketing</a></li>
-                                                <li><a href="#"><i class="fas fa-th-large"></i> Content Writing</a></li>
+                                                <li class="service_index"><a href="#"><i class="fas fa-th-large"></i> Content Writing</a></li>
 
                                             </ul>
                                         </div>
@@ -321,7 +321,7 @@
 
                     </div>
 
-                    <section class="single_part service_card_section overflow-hidden">
+                    <section class="single_part service_card_section overflow-hidden service_card_offset">
                         <div class="row align-items-center">
                             <div class="s_card">
                                 <div class="row">
@@ -377,7 +377,7 @@
                         </div>
                     </div>
 
-                    <section class="single_part service_card_section_2 overflow-hidden">
+                    <section class="single_part service_card_section_2 overflow-hidden service_card_offset">
                         <div class="row align-items-center">
                             <div class="s_card">
                                 <div class="row">
@@ -441,7 +441,7 @@
                             <i class="fas fa-caret-left"></i><i class="fas fa-caret-right"></i>
                         </div>
                     </div>
-                    <section class="single_part service_card_section overflow-hidden">
+                    <section class="single_part service_card_section overflow-hidden service_card_offset">
                         <div class="row align-items-center">
                             <div class="s_card">
                                 <div class="row">
@@ -494,7 +494,7 @@
                         </div>
                     </div>
 
-                    <section class="single_part service_card_section_2 overflow-hidden">
+                    <section class="single_part service_card_section_2 overflow-hidden service_card_offset">
                         <div class="row align-items-center">
                             <div class="s_card">
                                 <div class="row">
@@ -1006,6 +1006,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/mainscript.js"></script>
+    <script src="js/onscroll.js"></script>
 
     <script>
         var getSidebar = document.querySelector('nav');
@@ -1021,7 +1022,6 @@
         $(window).on('scroll', function () {
 
             var windowScroll = $(window).scrollTop();
-
             var topScroll = $('.service_info_left').offset().top;
             var service_info_left_1 = $('.service_info_left_1').offset().top - 750;
 
@@ -1032,7 +1032,6 @@
             } else {
                 $('.service_info_left_1').removeClass('opacity_100');
             }
-
         });
 
 
