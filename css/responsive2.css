@@ -285,7 +285,7 @@ a {
 }
 
 .opacity_100 {
-    transition: 2s ease;
+    /* transition: 2s ease; */
     opacity: 100%;
 }
 
@@ -1058,3 +1058,24 @@ header {
     top: -25%;
     left: 0;
 } */
+
+
+
+/* FAQ Section CSS || Start */
+#accordionFlushFAQ .accordion-button::after {
+    scale: 100%;
+    filter: invert(0);
+    content: "\002B";
+    background-image: none;
+    width: unset;
+    height: unset;
+}
+#accordionFlushFAQ .accordion-button:not(.collapsed)::after{
+    scale: 100%;
+    filter: invert(0);
+    content: "\2212";
+    background-image: none;
+    width: unset;
+    height: unset;
+}
+/* FAQ Section CSS || End */
