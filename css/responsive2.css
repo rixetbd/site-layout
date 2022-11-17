@@ -1062,7 +1062,8 @@ header {
 
 
 /* FAQ Section CSS || Start */
-#accordionFlushFAQ .accordion-button::after {
+#accordionFlushFAQ .accordion-button::after,
+#RigthAccordionFlushFAQ .accordion-button::after {
     scale: 100%;
     filter: invert(0);
     content: "\002B";
@@ -1070,12 +1071,19 @@ header {
     width: unset;
     height: unset;
 }
-#accordionFlushFAQ .accordion-button:not(.collapsed)::after{
+#accordionFlushFAQ .accordion-button:not(.collapsed)::after,
+#RigthAccordionFlushFAQ .accordion-button:not(.collapsed)::after{
     scale: 100%;
     filter: invert(0);
     content: "\2212";
     background-image: none;
     width: unset;
     height: unset;
+}
+
+#accordionFlushFAQ .accordion-body,
+#RigthAccordionFlushFAQ .accordion-body{
+    padding: 12px;
+    font-size: 14px;
 }
 /* FAQ Section CSS || End */
