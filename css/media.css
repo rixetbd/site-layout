@@ -172,8 +172,8 @@
 
 .left_aside,
 .right_aside {
-    /* background: #213d54; */
-    background-image: url('../img/body_bg3.png');
+    background: #213d54;
+    /* background-image: url('../img/body_bg3.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #dddddd0d; */
@@ -198,8 +198,9 @@
     position: relative;
     overflow: hidden;
     min-height: 900px;
-    background-color: #5A80A0;
+    background-color: #5a80a0;
     padding: 8rem 5rem;
+    padding-bottom: 0;
 }
 
 #header_top span.bubble {

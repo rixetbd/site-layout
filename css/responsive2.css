@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 @import url('https://fonts.cdnfonts.com/css/broadway');
 
 body {
@@ -299,10 +301,10 @@ a {
     opacity: 0%;
 }
 
-.service_info_left .accordion,
+/* .service_info_left .accordion,
 .service_info_left .accordion-button {
     background-color: #fdba13;
-}
+} */
 
 .service_info_left .accordion-button {
     padding: 10px;
@@ -318,8 +320,8 @@ a {
 
 .service_info_left_menu .accordion-button {
     padding: 6px 20px;
-    background-color: #213d54;
-    color: #ffffffa1;
+    background-color: #30455473;
+    color: #fff;
 }
 
 
@@ -341,7 +343,7 @@ a {
 }
 
 .service_info_left .accordion-button:not(.collapsed) {
-    color: #000;
+    color: #f0f0f0;
 }
 
 .service_info_left_menu .accordion-item {
@@ -351,7 +353,7 @@ a {
 
 .service_info_left_menu .accordion-body {
     overflow: hidden;
-    background-color: #1a3246;
+    /* background-color: #1a3246; */
     border-left: 0;
     /* border-bottom: 1px solid #fff; */
     padding: 0;
@@ -383,8 +385,15 @@ a {
 .service_info_left_menu .accordion-body ul li {
     padding: 10px 10px;
     cursor: pointer;
-    background-color: #1b354a9c;
+    /* background-color: #1b354a9c; */
     margin: 1px 0;
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+.service_info_left_menu .accordion-body ul li.active {
+    border-bottom: 1px solid #dddddd1f;
+    border-top: 1px solid #dddddd1f;
 }
 
 /* .service_info_left_menu .accordion-body ul li:hover,
@@ -392,7 +401,7 @@ a {
     background-color: #2a4b66 !important;
 } */
 .service_info_left_menu .accordion-body ul li a {
-    color: #c9c9c9 !important;
+    color: #fff !important;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -626,9 +635,8 @@ span.cursor.typing {
     font-weight: 600;
 }
 
-.briefing_div_pt {
-    padding-top: 8rem;
-}
+
+
 
 @keyframes blink {
     0% {
@@ -653,36 +661,55 @@ span.cursor.typing {
 }
 
 .briefing_div {
-    display: flex;
-    align-items: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .briefing_div input:focus-visible,
 .briefing_div input {
     outline: none;
-    color: #000;
-    padding: 20px;
-    border: 1px solid #213d54;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ffffff4a;
+    border-right: 0;
     box-shadow: none;
-    background: transparent;
-    width: 280px;
+    background: #4457652d;
+    width: 25%;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
     height: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.briefing_div_pt{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 
 .briefing_div input::placeholder {
-    color: #ffffffc0;
+    color: #f8f8f8;
+    font-weight: 300;
 }
 
 .briefing_div button {
-    padding: 10px;
-    border: 1px solid #213d54;
+    /* padding: 10px; */
+    border: 1px solid #88a0b4;
+    border-left: 0;
     box-shadow: none;
     background: #213d54;
-    width: 280px;
+    width: 25%;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
     height: 50px;
     color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 /* TypeWriter || End */
@@ -732,7 +759,7 @@ span.cursor.typing {
 
 #header_top {
     /* background-image: url('../img/top_bg.png') !important; */
-    background-image: url('../img/NAV-02.png') !important;
+    background-image: url('../img/top_header_dark2.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -744,30 +771,33 @@ span.cursor.typing {
 } */
 
 #header_top .special_text {
-    font-family: 'Broadway', sans-serif;
+    /* font-family: 'Rammetto One', cursive; */
+    font-family: 'Ranchers', cursive;
 }
 
 
 #header_top .special_text_box h2{
-    font-size: 12rem;
-    letter-spacing: -8px;
-    transform: scaleY(1.25);
+    font-size: 11.5rem;
+    letter-spacing: 16px;
+    /* transform: scaleY(1.25); */
     margin-bottom: 20px;
-    line-height: 5rem;
-    color: #74808d;
-    text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
+    line-height: 2rem;
+    text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+    color: #ffffff;
 }
 
 #header_top .special_text_box h3{
-    font-size: 7.5rem;
+    font-size: 6rem;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
-    color: #b3b3b3;
-    line-height: 8rem;
+    color: #fff;
+    line-height: 9rem;
+    text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
 }
 #header_top h5{
-    font-size: 3.5rem;
-    color: #b3b3b3;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #fff;
     text-shadow: 2px 1px 5px rgba(0,0,0,0.46);
 }
 
@@ -783,6 +813,7 @@ span.cursor.typing {
     position: relative;
     padding: 0 15px;
     font-size: 1.4rem;
+    text-shadow: 2px 1px 5px rgba(0,0,0,0.46);
 }
 
 #header_top .special_text_box ul li::after {
@@ -1160,14 +1191,52 @@ header {
 
 
 /* Working Process Section CSS || Start */
+
+#working_process{
+    padding: 5rem 0;
+    position: relative;
+    background-color: #213d54;
+}
+/* #working_process .content_box{
+    background-color: #fff;
+} */
+
+/* #working_process::before{
+    position: absolute;
+    content: "";
+    background-color: #213d54;
+    height: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+} */
+
 #working_process .row .content_box {
-    height: 150px;
-    background-color: #0000000e;
+    height: 240px;
+    background-color: #f8f8f8;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border-radius: 10px;
 }
 
+#working_process .row .content_box img{
+    width: 180px;
+    filter: grayscale(1);
+    transition: .5s ease-in;
+}
+#working_process .row .content_box:hover img{
+    filter: grayscale(0);
+    transform: scale(103%);
+    transition: .5s ease-in;
+}
+
+#working_process .row .content_box h4{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1rem;
+}
 .default_article h2 {
     font-size: 1.6rem;
 }
