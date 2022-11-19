@@ -635,6 +635,14 @@ span.cursor.typing {
     font-weight: 600;
 }
 
+.tndustries_part .invert_color{
+    filter: grayscale(1);
+    transition: .5s ease-in;
+}
+.tndustries_part:hover .invert_color{
+    filter: grayscale(0);
+    transition: .5s ease-in;
+}
 
 
 
