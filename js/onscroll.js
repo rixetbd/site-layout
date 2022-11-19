@@ -23,11 +23,28 @@
 
   function data_sectionname(){
     
+    let right_data = "";
+
     $('.page_part_offset').each(function() {
-      
-      console.log($(this).data('sectionname'))
+      right_data += `<div class="index_item" onclick="goToSection()">`+$(this).data('sectionname')+`</div>`; 
+    });
+
+    
+
+
+    $('.default_article_hd').each(function() {
+      console.log($(this).html())
+
+      right_data += `<a href="#">`+$(this).html()+`</a>`;
 
     });
+
+    $('.default_article h3').each(function() {
+      console.log($(this).html())
+    });
+
+    console.log(right_data);
+
   }
 
   data_sectionname();
