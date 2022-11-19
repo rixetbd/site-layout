@@ -344,6 +344,7 @@ a {
 }
 
 .service_info_left_menu .accordion-item {
+    border: none;
     background-color: transparent;
 }
 
@@ -360,7 +361,6 @@ a {
     color: #000;
     border: none;
     padding: 0;
-    background-color: #fff
 }
 
 .service_info_left_menu .accordion-body ul,
@@ -372,8 +372,7 @@ a {
 
 .service_info_left .accordion-body ul li {
     /* background-color: #000; */
-    color: #ddd;
-    border-left: 8px solid transparent;
+    border: 0;
     padding: 5px;
     margin: 0;
     position: relative;
@@ -392,7 +391,7 @@ a {
     background-color: #2a4b66 !important;
 } */
 .service_info_left_menu .accordion-body ul li a {
-    color: #c9c9c9;
+    color: #c9c9c9 !important;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -419,11 +418,6 @@ a {
     color: #000;
 }
 
-.service_info_left .accordion-body ul li.active {
-    border: 1px solid #fdba13;
-    border-left: 8px solid #fdba13;
-    /* background-color: #f7f7f7; */
-}
 
 
 .service_info_left .accordion-body ul li.active::after {
