@@ -150,40 +150,67 @@
         color: #fff;
         border-radius: 0;
     }
+
     #working_process .row {
         margin: 0;
     }
+
     #working_process .row .col-sm-12 {
         width: 50%;
         margin: 0;
         padding: 0;
     }
-    #working_process .row .col-sm-12 .content_box{
+
+    #working_process .row .col-sm-12 .content_box {
         border-radius: 0;
         height: 160px;
         border: 1px solid #e1e1e1;
     }
+
     #working_process .row .content_box img {
         width: 100px;
         filter: grayscale(1);
         transition: .5s ease-in;
     }
+
     #working_process .row .content_box h4 {
         font-size: 13px;
     }
+
     /* Header Section || End */
 
     /* Industry Section || Start */
     .industry_26_css {
         padding-right: 0;
+        padding-left: 0;
     }
+
     .industry_26_css_bottom {
         padding-left: 15px;
     }
+
     .industry_26_css_top {
         padding-left: 15px;
     }
+
     /* Industry Section || End */
+
+
+
+    /* Service Section || Start */
+    .s_card .rotate_box_main,
+    .s_card .s_card_content {
+        width: 100%;
+    }
+    .rotate_box div {
+        transform: unset;
+        min-width: 100%;
+        padding: 25px 32px;
+    }
+    .s_card_content {
+        padding: 50px 40px;
+    }
+    /* Service Section || End */
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -260,3 +287,12 @@
 
     /* Header Section || End */
 }
+
+
+
+
+
+
+
+
+

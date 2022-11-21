@@ -573,7 +573,7 @@ a {
 }
 
 .s_card_content {
-    padding: 150px 50px;
+    padding: 150px 50px 70px 50px;
 }
 
 .s_card_absolute {
@@ -636,9 +636,8 @@ a {
 }
 
 .s_card_absolute_2 {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
+    float: right;
+    margin-top: 1rem;
 }
 
 /* ============ service_card_section =============== */
@@ -679,14 +678,12 @@ a {
 .s_card_absolute_2 a {
     padding: 15px 35px 20px;
     border: none;
-    margin-left: 15px;
     background-color: #fff;
 }
 
 .s_card_absolute_2 a:hover {
     padding: 15px 35px 20px;
     border: none;
-    margin-left: 15px;
     background-color: #fddb3a;
 }
 
