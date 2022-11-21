@@ -162,7 +162,7 @@ a {
     background-color: red;
 } */
 
-.right_aside{
+.right_aside {
     display: flex;
     align-items: center;
 }
@@ -222,11 +222,12 @@ a {
     color: #fff;
 }
 
-.service_right_box{
+.service_right_box {
     width: 100%;
     margin-top: 2rem;
 }
-.service_right_box h5{
+
+.service_right_box h5 {
     text-align: center;
     color: #fff;
     letter-spacing: .75px;
@@ -234,17 +235,18 @@ a {
     font-weight: 300;
 }
 
-.service_right_box .search_grp{
+.service_right_box .search_grp {
     display: flex;
     align-items: center;
     margin: 35px 0;
 }
-.service_right_box .search_grp svg{
+
+.service_right_box .search_grp svg {
     color: #f8f8f8c0;
     margin-right: -20px;
 }
 
-.service_right_box .search_box{
+.service_right_box .search_box {
     width: 100%;
     background-color: transparent;
     color: #fff;
@@ -255,16 +257,21 @@ a {
     letter-spacing: 1px;
     font-size: 12px;
 }
-.service_right_box .search_box::placeholder{
+
+.service_right_box .search_box::placeholder {
     color: #ffffff94;
 }
-.service_right_box .search_box:focus{
+
+.service_right_box .search_box:focus {
     box-shadow: none;
     outline: none;
 }
 
-.service_right_box a{text-decoration: none;}
-.service_right_box ul{
+.service_right_box a {
+    text-decoration: none;
+}
+
+.service_right_box ul {
     height: 300px;
     overflow: scroll;
     padding: 0;
@@ -278,22 +285,22 @@ a {
 /* width */
 .service_right_box ul::-webkit-scrollbar {
     width: 3px;
-  }
-  
-  /* Track */
-  .service_right_box ul::-webkit-scrollbar-track {
+}
+
+/* Track */
+.service_right_box ul::-webkit-scrollbar-track {
     background: transparent;
-  }
-  
-  /* Handle */
-  .service_right_box ul::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+.service_right_box ul::-webkit-scrollbar-thumb {
     background: #888;
-  }
-  
-  /* Handle on hover */
-  .service_right_box ul::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+.service_right_box ul::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
 
 /* .service_right_box ul::-webkit-scrollbar */
@@ -301,24 +308,27 @@ a {
 
 
 
-.service_right_box ul li{
+.service_right_box ul li {
     margin: 10px 0;
 }
-.service_right_box ul li a{
+
+.service_right_box ul li a {
     color: #fff;
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-.service_right_box ul li:hover a{
+
+.service_right_box ul li:hover a {
     color: #fdba13;
 }
 
-.service_right_box ul li a{
+.service_right_box ul li a {
     display: flex;
     flex-wrap: nowrap;
 }
-.service_right_box ul li a svg{
+
+.service_right_box ul li a svg {
     margin-top: 3px;
 }
 
@@ -431,7 +441,7 @@ a {
 
 
 .service_info_left_menu .accordion-button:not(.collapsed) {
-    border-bottom: 1px solid #fff;
+    border-bottom: none;
     color: #fff;
 }
 
@@ -740,11 +750,12 @@ span.cursor.typing {
     font-weight: 600;
 }
 
-.tndustries_part .invert_color{
+.tndustries_part .invert_color {
     filter: grayscale(1);
     transition: .5s ease-in;
 }
-.tndustries_part:hover .invert_color{
+
+.tndustries_part:hover .invert_color {
     filter: grayscale(0);
     transition: .5s ease-in;
 }
@@ -771,58 +782,6 @@ span.cursor.typing {
     100% {
         background-color: #ccc;
     }
-}
-
-.briefing_div {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.briefing_div input:focus-visible,
-.briefing_div input {
-    outline: none;
-    color: #fff;
-    padding: 10px 20px;
-    border: 1px solid #ffffff4a;
-    border-right: 0;
-    box-shadow: none;
-    background: #4457652d;
-    width: 25%;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 300;
-    height: 50px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-.briefing_div_pt{
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 12px;
-}
-
-.briefing_div input::placeholder {
-    color: #f8f8f8;
-    font-weight: 300;
-}
-
-.briefing_div button {
-    /* padding: 10px; */
-    border: 1px solid #88a0b4;
-    border-left: 0;
-    box-shadow: none;
-    background: #213d54;
-    width: 25%;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 300;
-    height: 50px;
-    color: #fff;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 
 /* TypeWriter || End */
@@ -886,53 +845,6 @@ span.cursor.typing {
 #header_top .special_text {
     font-family: 'Rammetto One', cursive;
     /* font-family: 'Ranchers', cursive; */
-}
-
-
-#header_top .special_text_box h2{
-    font-size: 5.5rem;
-    letter-spacing: 0px;
-    /* transform: scaleY(1.25); */
-    margin-bottom: 20px;
-    line-height: 2rem;
-    text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
-    color: #ffffff;
-}
-
-#header_top .special_text_box h3{
-    font-size: 4rem;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    line-height: 7rem;
-    text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
-}
-#header_top h5{
-    padding-top: 2rem;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    color: #fff;
-    text-shadow: 2px 1px 5px rgba(0,0,0,0.46);
-}
-
-#header_top .special_text_box ul {
-    display: inline-flex;
-    list-style: none;
-    justify-content: center;
-    width: 100%;
-    color: #fff;
-}
-
-#header_top .special_text_box ul li {
-    position: relative;
-    padding: 0 15px;
-    font-size: 1.4rem;
-    text-shadow: 2px 1px 5px rgba(0,0,0,0.46);
-}
-
-#header_top .special_text_box ul li::after {
-    content: "\007C";
-    position: absolute;
-    padding-left: 10px;
 }
 
 #header_top .special_text_box ul li:last-child::after {
@@ -1305,11 +1217,12 @@ header {
 
 /* Working Process Section CSS || Start */
 
-#working_process{
+#working_process {
     padding: 5rem 0;
     position: relative;
     background-color: #213d54;
 }
+
 /* #working_process .content_box{
     background-color: #fff;
 } */
@@ -1334,22 +1247,24 @@ header {
     border-radius: 10px;
 }
 
-#working_process .row .content_box img{
+#working_process .row .content_box img {
     width: 180px;
     filter: grayscale(1);
     transition: .5s ease-in;
 }
-#working_process .row .content_box:hover img{
+
+#working_process .row .content_box:hover img {
     filter: grayscale(0);
     transform: scale(103%);
     transition: .5s ease-in;
 }
 
-#working_process .row .content_box h4{
+#working_process .row .content_box h4 {
     font-size: 16px;
     font-weight: 400;
     padding-top: 1rem;
 }
+
 .default_article h2 {
     font-size: 1.6rem;
 }

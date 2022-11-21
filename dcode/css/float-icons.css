@@ -71,63 +71,60 @@
 }
 
 .icons-1 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 0;
   margin-top: 0;
 }
 
 .icons-2 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 75px;
   margin-top: 50px;
 }
 .icons-3 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 0px;
   margin-top: 100px;
 }
 
 .icons-4 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 75px;
   margin-top: 150px;
 }
 
 .icons-5 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 0;
   margin-top: 200px;
 }
 
 .icons-6 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 75px;
   margin-top: 250px;
 }
 .icons-7 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  height: 35px;
-  margin-left: 0px;
   margin-top: 300px;
 }
 
 .icons-8 {
+  margin-top: 350px;
+}
+
+
+.icons_area{
+  min-height: 400px;
+}
+.icons_area .icons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icons_area .icons .icons-1,
+.icons_area .icons .icons-3,
+.icons_area .icons .icons-5,
+.icons_area .icons .icons-7{
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
+  margin-left: -30%;
   height: 35px;
-  margin-left: 75px;
-  margin-top: 350px;
+}
+.icons_area .icons .icons-2,
+.icons_area .icons .icons-4,
+.icons_area .icons .icons-6,
+.icons_area .icons .icons-8{
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  margin-left: 30%;
+  height: 35px;
 }

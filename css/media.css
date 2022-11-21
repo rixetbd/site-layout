@@ -16,6 +16,7 @@
     .main_content {
         width: 100%;
     }
+
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -94,7 +95,9 @@
         width: 65%;
     }
 
-    .left_aside{left: 0;}
+    .left_aside {
+        left: 0;
+    }
 
     .left_aside,
     .right_aside {
@@ -104,7 +107,9 @@
         min-height: 50vh;
     }
 
-    .right_aside {padding: 0 !important;}
+    .right_aside {
+        padding: 0 !important;
+    }
 
     nav ul {
         position: absolute;
@@ -113,12 +118,114 @@
     }
 
     .service_info_left_menu {
-        padding:0;
+        padding: 0;
         margin-top: 0;
         width: 100%;
         float: right;
         margin-right: 0;
     }
+
+
+    #header_top .special_text_box h2 {
+        font-size: 5.5rem;
+        letter-spacing: 0px;
+        /* transform: scaleY(1.25); */
+        margin-bottom: 20px;
+        line-height: 2rem;
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+        color: #ffffff;
+    }
+
+    #header_top .special_text_box h3 {
+        font-size: 4rem;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        line-height: 7rem;
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
+    }
+
+    #header_top h5 {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color: #fff;
+        text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
+    }
+
+    #header_top .special_text_box ul {
+        display: inline-flex;
+        list-style: none;
+        justify-content: center;
+        width: 100%;
+        color: #fff;
+    }
+
+    #header_top .special_text_box ul li {
+        position: relative;
+        padding: 0 15px;
+        font-size: 1.4rem;
+        text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
+    }
+
+    #header_top .special_text_box ul li::after {
+        content: "\007C";
+        position: absolute;
+        padding-left: 10px;
+    }
+
+    .briefing_div {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .briefing_div input:focus-visible,
+    .briefing_div input {
+        outline: none;
+        color: #fff;
+        padding: 10px 20px;
+        border: 1px solid #ffffff4a;
+        border-right: 0;
+        box-shadow: none;
+        background: #4457652d;
+        width: 25%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        height: 50px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .briefing_div_pt {
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .briefing_div input::placeholder {
+        color: #f8f8f8;
+        font-weight: 300;
+    }
+
+    .briefing_div button {
+        /* padding: 10px; */
+        border: 1px solid #88a0b4;
+        border-left: 0;
+        box-shadow: none;
+        background: #213d54;
+        width: 25%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        height: 50px;
+        color: #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
 
 }
 
@@ -165,6 +272,108 @@
         padding: 0;
         margin: 0;
     }
+
+    #header_top .special_text_box h2 {
+        font-size: 5.5rem;
+        letter-spacing: 0px;
+        /* transform: scaleY(1.25); */
+        margin-bottom: 20px;
+        line-height: 2rem;
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+        color: #ffffff;
+    }
+
+    #header_top .special_text_box h3 {
+        font-size: 4rem;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        line-height: 7rem;
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
+    }
+
+    #header_top h5 {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color: #fff;
+        text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
+    }
+
+    #header_top .special_text_box ul {
+        display: inline-flex;
+        list-style: none;
+        justify-content: center;
+        width: 100%;
+        color: #fff;
+    }
+
+    #header_top .special_text_box ul li {
+        position: relative;
+        padding: 0 15px;
+        font-size: 1.4rem;
+        text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
+    }
+
+    #header_top .special_text_box ul li::after {
+        content: "\007C";
+        position: absolute;
+        padding-left: 10px;
+    }
+
+
+    .briefing_div {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .briefing_div input:focus-visible,
+    .briefing_div input {
+        outline: none;
+        color: #fff;
+        padding: 10px 20px;
+        border: 1px solid #ffffff4a;
+        border-right: 0;
+        box-shadow: none;
+        background: #4457652d;
+        width: 25%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        height: 50px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .briefing_div_pt {
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .briefing_div input::placeholder {
+        color: #f8f8f8;
+        font-weight: 300;
+    }
+
+    .briefing_div button {
+        /* padding: 10px; */
+        border: 1px solid #88a0b4;
+        border-left: 0;
+        box-shadow: none;
+        background: #213d54;
+        width: 25%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        height: 50px;
+        color: #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
 
 }
 
@@ -258,20 +467,18 @@
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-size: 90px;
-    line-height: 90px;
-    letter-spacing: 15px;
     text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef, 0 4px 0 #efefef, 0 30px 5px rgba(0, 0, 0, 0.1);
     animation: swing 5s linear infinite alternate;
 }
+
 @keyframes swing {
     from {
         transform: rotate(5deg);
-   }
+    }
+
     to {
         transform: rotate(-5deg);
-   }
+    }
 }
 
 /* Floating Text Effect CSS || End */
-
