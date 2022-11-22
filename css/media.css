@@ -368,7 +368,6 @@
         width: 17.5%;
         min-height: 100vh;
         padding-top: 5vh !important;
-        background-color: aqua;
     }
 
     .main_content {
@@ -496,12 +495,20 @@
 
 .left_aside,
 .right_aside {
-    background: #213d54;
-    /* background-image: url('../img/body_bg3.png'); */
+    /* background: #213d54;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    /* background-image: url('../img/body_bg3.png'); */
     /* background-color: #dddddd0d; */
 }
+
+.left_aside,
+.right_aside {
+    background:#5a80a0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
@@ -521,7 +528,8 @@
 #header_top {
     position: relative;
     overflow: hidden;
-    background-color: #5a80a0;
+    /* background-color: #5a80a0; */
+    background-color: #213d54;
     padding-bottom: 0;
 }
 

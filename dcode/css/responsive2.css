@@ -332,8 +332,8 @@ a {
 
 /* Main Section || Start */
 .main_content {
-    /* background-color: #c3c3c3c3; */
-    background-color: #5a80a0;
+    /* background-color: #5a80a0; */
+    background-color: #213d54;
 }
 
 .sct_content {
@@ -877,7 +877,7 @@ span.cursor.typing {
 
 #header_top {
     /* background-image: url('../img/top_bg.png') !important; */
-    background-image: url('../img/top_header_dark3.png') !important;
+    background-image: url('../img/top_header_dark2.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1313,7 +1313,8 @@ header {
 #working_process{
     padding: 5rem 0;
     position: relative;
-    background-color: #5a80a0;
+    /* background-color: #5a80a0; */
+    background-color: #213d54;
 }
 /* #working_process .content_box{
     background-color: #fff;

@@ -151,7 +151,6 @@
         width: 17.5%;
         min-height: 100vh;
         padding-top: 5vh !important;
-        background-color: aqua;
     }
 
     .main_content {
@@ -172,7 +171,7 @@
 
 .left_aside,
 .right_aside {
-    background:#5a80a0;
+    background:#213d54;
     /* background-image: url('../img/body_bg3.png'); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +197,8 @@
     position: relative;
     overflow: hidden;
     min-height: 900px;
-    background-color: #213d54;
+    background-color: #5a80a0;
+    /* background-color: #213d54; */
     padding: 8rem 5rem;
     padding-bottom: 0;
 }
