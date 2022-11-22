@@ -206,6 +206,7 @@
         transform: unset;
         min-width: 100%;
         padding: 25px 32px;
+        text-align: left;
     }
     .s_card_content {
         padding: 50px 40px;

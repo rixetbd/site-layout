@@ -132,3 +132,72 @@
   margin-left: 30%;
   height: 35px;
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 319px) and (max-width: 575.98px) {
+
+  .icons_area{
+    min-height: 220px;
+  }
+
+  .icons_area .icons {
+    width: 100%;
+    display: flex;
+    justify-content:unset;
+  }
+
+  .icons_area .icons .icons-1,
+  .icons_area .icons .icons-3,
+  .icons_area .icons .icons-5,
+  .icons_area .icons .icons-7 {
+    margin-left: 5%;
+  }
+  
+  .icons_area .icons .icons-2,
+  .icons_area .icons .icons-4,
+  .icons_area .icons .icons-6,
+  .icons_area .icons .icons-8 {
+    margin-left: 55% !important;
+  }
+
+  
+.icons-1 {
+  margin-top: 0;
+}
+
+.icons-2 {
+  margin-top: 0px;
+}
+
+.icons-3 {
+  margin-top: 50px;
+}
+
+.icons-4 {
+  margin-top: 50px;
+}
+
+.icons-5 {
+  margin-top: 100px;
+}
+
+.icons-6 {
+  margin-top: 100px;
+}
+
+.icons-7 {
+  margin-top: 150px;
+}
+
+.icons-8 {
+  margin-top: 150px;
+}
+
+}
