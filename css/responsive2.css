@@ -711,7 +711,7 @@ a {
 
 .s_card .s_card_content {
     width: 80%;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
 }
@@ -771,7 +771,7 @@ a {
 /* TypeWriter || Start */
 span.typed-text {
     font-weight: 900;
-    color: #fff;
+    color: #213d54;
 }
 
 span.cursor {

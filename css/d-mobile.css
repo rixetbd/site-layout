@@ -12,11 +12,10 @@
 
     /* Header Section || Start */
     #header_top {
-        height: 650px;
+        height: 520px;
         position: relative;
         overflow: hidden;
         min-height: unset;
-        background-color: #5A80A0;
         padding: 5rem 1.5rem 3rem;
     }
 
