@@ -139,8 +139,8 @@ li {
 }
 
 .border_one1_side {
-    border-left: 1px solid #fdba13;
-    border-right: 1px solid #fdba13;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 /* Main Style */
@@ -384,6 +384,7 @@ a {
 }
 
 .line_breaker .icon_box {
+    transform: rotate(90deg) scale(1.2);
     position: absolute;
     width: 30px;
     height: 30px;
@@ -393,7 +394,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 .line_breaker .icon_box svg {
@@ -581,7 +582,32 @@ a {
 
 .s_card_content h3{
     text-align: center;
+    position: relative;
+    width: fit-content;
+    font-size: 40px;
+    margin-bottom: 2.5rem;
 }
+
+.s_card_content h3::after{
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(to right, #25b0a9 50%, #fee603 50%);
+    bottom: -5px;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    border-radius: 20px;
+    background-position: 0 100%;
+    background-size: 200% 5px;
+    background-repeat: repeat-x;
+    transition: all 0.4s;
+}
+
+.single_part:hover .s_card_content h3::after{
+    background-position: -100% 100%;
+    border-radius: 20px;
+}
+
 
 .s_card_absolute {
     height: 200px;
@@ -649,24 +675,26 @@ a {
 
 /* ============ service_card_section =============== */
 .service_card_section {
-    background-color: #9bc4e7 !important;
+    /* background-color: #9bc4e7 !important; */
+    background-color: #fff !important;
 }
 
 .service_card_section_2 {
-    background-color: #c2d0dc !important;
+    background-color: #fff !important;
+    /* background-color: #c2d0dc !important; */
 }
 
 .service_card_section .s_card_absolute_2 a,
 .service_card_section .rotate_box_main {
-    background-color: transparent !important;
-    border-right: 1px solid #a9b4be;
+    background-color: #f8f8f8  !important;
+    /* border-right: 1px solid #a9b4be; */
     /* background-color: #c2d0dc !important; */
 }
 
 .service_card_section_2 .s_card_absolute_2 a,
 .service_card_section_2 .rotate_box_main {
-    background-color: transparent !important;
-    border-right: 1px solid #a9b4be;
+    background-color: #f8f8f8  !important;
+    /* border-right: 1px solid #a9b4be; */
     /* background-color: #9bc4e7 !important; */
 }
 
@@ -1134,14 +1162,15 @@ header {
 }
 
 .rotate_box div hr {
-    margin: 0.15rem 0;
+    /* margin: 0.15rem 0; */
+    margin: 0;
 }
 
 .rotate_box div {
     text-align: center;
     transform: rotate(-90deg);
     width: 100%;
-    min-width: 900px;
+    min-width: 400px;
 }
 
 .rotate_box div h6 {
@@ -1250,7 +1279,7 @@ header {
 
 #working_process .row .content_box {
     height: 240px;
-    background-color: #f8f8f8;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;

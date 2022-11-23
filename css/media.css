@@ -529,7 +529,8 @@
     position: relative;
     overflow: hidden;
     /* background-color: #5a80a0; */
-    background-color: #213d54;
+    /* background-color: #213d54; */
+    background-color: #fff;
     padding-bottom: 0;
 }
 
