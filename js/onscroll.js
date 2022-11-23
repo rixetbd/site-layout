@@ -76,7 +76,7 @@
 // function service_section(){
   $('#accordionFlushSideNav .service_index').each(function(i){
       $(this).click(()=>{
-        let offset = $(`.service_card_offset:eq(${i})`).offset().top + 20;
+        let offset = $(`.service_card_offset:eq(${i})`).offset().top -40;
         window.scrollTo(300, offset);
       });
   });

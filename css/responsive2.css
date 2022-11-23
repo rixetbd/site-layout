@@ -577,7 +577,7 @@ a {
 }
 
 .s_card_content {
-    padding: 150px 50px 70px 50px;
+    padding: 70px 0px 70px 50px;
 }
 
 .s_card_content h3{
@@ -677,10 +677,16 @@ a {
 .service_card_section {
     /* background-color: #9bc4e7 !important; */
     background-color: #fff !important;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
 .service_card_section_2 {
     background-color: #fff !important;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
     /* background-color: #c2d0dc !important; */
 }
 
@@ -705,6 +711,9 @@ a {
 
 .s_card .s_card_content {
     width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
 /* ============ service_card_section =============== */
@@ -868,10 +877,11 @@ span.cursor.typing {
 
 #header_top {
     /* background-image: url('../img/top_bg.png') !important; */
-    background-image: url('../img/top_header_dark3.png') !important;
+    /* background-image: url('../img/top_header_dark3.png') !important; */
+    background-image: url('../img/bg-top-solid.png') !important;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: bottom center;
 }
 
 
