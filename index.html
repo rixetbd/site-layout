@@ -15,6 +15,7 @@
     <link href="css/float-icons.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
     <link href="css/d-mobile.css" rel="stylesheet">
+    <link href="css/sticky_nav.css" rel="stylesheet">
     <style>
         /* *{
             user-select: none;
@@ -34,7 +35,7 @@
                         <div class="toggle">
                             <i class="fas fa-bars"></i>
                         </div>
-                        <h3>Dashboard</h3>
+                        <h3 class="m-0"><img class="img-fluid" src="logo.png" alt="" width="100"></h3>
                         <a href="#">
                             <i class="fas fa-sign-out-alt"></i>
                         </a>
@@ -59,9 +60,27 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a id="service_nav_item">
                                     <span class="icon"><i class="fas fa-user"></i></span>
                                     <span class="title">Service</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-user"></i></span>
+                                    <span class="title">Service 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="pricing_nav_item">
+                                    <span class="icon"><i class="fas fa-user"></i></span>
+                                    <span class="title">Pricing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-user"></i></span>
+                                    <span class="title">Pricing 2</span>
                                 </a>
                             </li>
                             <li>
@@ -85,7 +104,7 @@
                         </ul>
                     </nav>
 
-                    <div style="padding:0;margin-top: 15rem;width: 70%;margin-left: 15%;">
+                    <div style="padding:0;margin-top: 20rem;width: 70%;margin-left: 15%;">
                         <hr style="color: #fff;">
                     </div>
 
@@ -229,6 +248,614 @@
             </div>
 
             <div class="main_content border_one1_side">
+                <div id="service_navbar" class="d-none border_one1_side">
+                    <div class="container">
+                        <div class="row w-100 m-0 mega_menu_area">
+                            <div class="col-sm-12 col-md-12" style="min-height: 100px;"></div>
+                            <div class="col-sm-12 col-md-3 py-4">
+                                <h3 class="service_group_title_two"><i class="fas fa-bullhorn me-2"></i> Digital
+                                    Marketing</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Lead Generation Services</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Search Engine Optimization</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">E-mail Marketing</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Content Marketing</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">E-mail Marketing</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3 py-4">
+                                <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Graphics
+                                    Design</h3>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Photo Editing and Retouching</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Vector Illustration &amp; Digital Art</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Printable Design</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Motion Graphics</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3 py-4">
+                                <h3 class="service_group_title_two"><i class="fas fa-code me-2"></i> Web Development
+                                </h3>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">WordPress Development</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Web Application</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Html Conversion</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">E-Commerce Development</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Performance &amp; Security</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3 py-4">
+                                <h3 class="service_group_title_two"><i class="fas fa-file-signature me-2"></i> Data
+                                    Entry</h3>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Data Entry</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Performance &amp; Security</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">Lead Generation &amp; Data Entry</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mb-3">
+                                    <a class="help_text_root" href="#">
+                                        <span class="service_group_title">New Home Page</span>
+                                        <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                        <p>With Proper SEO campaign, you can boost your daily
+                                            organic traffic and bring more conversions by organically
+                                            ranking.</p>
+                                        <div class="help_text">
+                                            <div class="text-center">
+                                                <span class="help_text_1">You can discover everything for your
+                                                    needs</span>
+                                                <span class="help_text_2">Visit Page</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="pricing_navbar" class="d-none border_one1_side">
+                    <div class="container">
+                        <div class="row w-100 m-0" id="sp_box_root">
+                            <div class="col-sm-12 col-md-3">
+                                <div class="sp_box active">
+                                    <h4>Digital Marketing</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="sp_box">
+                                    <h4>Data Entry</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="sp_box">
+                                    <h4>Web Development</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="sp_box">
+                                    <h4>Graphics Design</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row w-100 m-0 pt-4 mega_menu_area">
+                            <div class="sp_box_single d-none row">
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Lead
+                                        Generation</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Search Engine Optimization</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <!-- <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p> -->
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> SEO
+                                    </h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Email
+                                        Marketing</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">WordPress Development</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Content
+                                        Writing</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Data Entry</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sp_box_single d-none row">
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Online Data Entry </h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Search Engine Optimization</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Ofline Data Entry</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sp_box_single d-none row">
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> WordPress Development </h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Search Engine Optimization</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Web Application</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Frontend Development </h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Search Engine Optimization</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Backend Development</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sp_box_single d-none row">
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Motion Graphic </h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Search Engine Optimization</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Logo Design</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-3 py-4">
+                                    <h3 class="service_group_title_two"><i class="fas fa-bezier-curve me-2"></i> Social Media Design</h3>
+                                    <div class="mb-3">
+                                        <a class="help_text_root" href="#">
+                                            <span class="service_group_title">Photo Editing and Retouching</span>
+                                            <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
+                                            <p>With Proper SEO campaign, you can boost your daily
+                                                organic traffic and bring more conversions by organically
+                                                ranking.</p>
+                                            <div class="help_text">
+                                                <div class="text-center">
+                                                    <span class="help_text_1">You can discover everything for your
+                                                        needs</span>
+                                                    <span class="help_text_2">Visit Page</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- <div id="bg_overlay" class="d-none border_one1_side"></div> -->
                 <div class="sct_content">
                     <!-- Section Concept Start || Start -->
 
@@ -739,7 +1366,8 @@
                                                 <hr>
                                                 <h5>Data Entry</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Offline Data Entry</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">Offline Data Entry
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -806,7 +1434,8 @@
                                                 <hr>
                                                 <h5>Data Entry</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Online Data Entry</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">Online Data Entry
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -881,7 +1510,8 @@
                                                 <hr>
                                                 <h5>Web Development</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">WordPress Development</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">WordPress
+                                                    Development</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1009,7 +1639,8 @@
                                                 <hr>
                                                 <h5>Web Development</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Frontend Development</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">Frontend Development
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1072,7 +1703,8 @@
                                                 <hr>
                                                 <h5>Web Development</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Backend Development</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">Backend Development
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1263,7 +1895,8 @@
                                                 <hr>
                                                 <h5>Graphics Design</h5>
                                                 <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Social Media Design</h4>
+                                                <h4 class="m-0 p-0 underlined underlined--gradient">Social Media Design
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1730,14 +2363,6 @@
 
             <div class="aside right_aside_root">
                 <div class="right_aside p-4">
-
-                    <!-- <div class="right_aside_sidebar">
-
-                    </div> -->
-
-                    <div>
-                        <hr style="color: #fff;">
-                    </div>
                     <div class="service_right_box">
                         <h5>Our most trending services</h5>
                         <div class="search_grp">

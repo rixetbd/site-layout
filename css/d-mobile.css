@@ -1,8 +1,22 @@
 @media (min-width: 319px) and (max-width: 575.98px) {
 
-    .left_aside_root,
+    /* .left_aside_root, */
     .right_aside_root {
         display: none !important;
+    }
+
+    .aside.left_aside_root{
+        display: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+    }
+    .aside.left_aside_root .logo_area,
+    .aside.left_aside_root .service_info_left_menu {
+        display: none;
     }
 
     .main_content {

@@ -276,7 +276,7 @@ a {
 
 .service_right_box ul {
     height: 300px;
-    overflow: scroll;
+    overflow: auto;
     padding: 0;
     list-style: none;
     padding: 0 10px;
@@ -286,24 +286,21 @@ a {
 /* .service_right_box ul::-webkit-scrollbar */
 
 /* width */
-.service_right_box ul::-webkit-scrollbar {
-    width: 3px;
+/* .service_right_box ul::-webkit-scrollbar {
+    width: 10px;
 }
 
-/* Track */
 .service_right_box ul::-webkit-scrollbar-track {
     background: transparent;
 }
 
-/* Handle */
 .service_right_box ul::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-/* Handle on hover */
 .service_right_box ul::-webkit-scrollbar-thumb:hover {
     background: #555;
-}
+} */
 
 
 /* .service_right_box ul::-webkit-scrollbar */
@@ -320,16 +317,14 @@ a {
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .service_right_box ul li:hover a {
     color: #fdba13;
 }
 
-.service_right_box ul li a {
-    display: flex;
-    flex-wrap: nowrap;
-}
 
 .service_right_box ul li a svg {
     margin-top: 3px;
@@ -431,7 +426,7 @@ a {
 
 .service_info_left_menu {
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 0rem;
     width: 70%;
     float: right;
     margin-right: 15%;

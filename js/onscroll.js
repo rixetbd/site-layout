@@ -74,10 +74,103 @@
 
 
 // function service_section(){
-  $('#accordionFlushSideNav .service_index').each(function(i){
-      $(this).click(()=>{
-        let offset = $(`.service_card_offset:eq(${i})`).offset().top -40;
-        window.scrollTo(300, offset);
-      });
+$('#accordionFlushSideNav .service_index').each(function (i) {
+  $(this).click(() => {
+    let offset = $(`.service_card_offset:eq(${i})`).offset().top - 40;
+    window.scrollTo(300, offset);
   });
+});
 // }
+
+
+
+
+$('#sp_box_root .sp_box').each(function (i) {
+
+  $(`.sp_box_single:eq(${0})`).removeClass('d-none');
+
+  $(this).click(() => {
+    $('#sp_box_root .sp_box').removeClass('active');
+    $(this).addClass('active');
+    $(`.sp_box_single`).addClass('d-none');
+    $(`.sp_box_single:eq(${i})`).removeClass('d-none');
+  });
+});
+
+
+
+// Outside Div Selection For Sticky Nav || Start
+window.addEventListener('click', function (e) {
+  if (document.getElementById('service_navbar').contains(e.target)) {
+    // Clicked in box
+  } else {
+    // Clicked outside the box
+    if ($('#service_navbar').hasClass('show_nav')) {
+      $('#service_navbar').addClass('d-none');
+      $('#bg_overlay').addClass('d-none');
+      $('#service_navbar').removeClass('show_nav');
+    }
+  }
+});
+
+// Outside Div Selection For Sticky Nav || Start
+window.addEventListener('click', function (e) {
+  if (document.getElementById('pricing_navbar').contains(e.target)) {
+    // Clicked in box
+  } else {
+    // Clicked outside the box
+    if ($('#pricing_navbar').hasClass('show_nav')) {
+      $('#pricing_navbar').addClass('d-none');
+      $('#bg_overlay').addClass('d-none');
+      $('#pricing_navbar').removeClass('show_nav');
+    }
+  }
+});
+
+$('#service_nav_item').click(function () {
+
+  $('#service_navbar').animate({
+    scrollTop: 0
+  }, 100);
+
+  if ($('#service_navbar').hasClass('d-none')) {
+    $('#pricing_navbar').addClass('d-none');
+    $('#bg_overlay').addClass('d-none');
+    $('#pricing_navbar').removeClass('show_nav');
+
+    $('#service_navbar').removeClass('d-none');
+    $('#bg_overlay').removeClass('d-none');
+    setTimeout(function () {
+      $('#service_navbar').addClass('show_nav');
+    }, 50);
+  } else {
+    $('#service_navbar').addClass('d-none');
+    $('#bg_overlay').addClass('d-none');
+    $('#service_navbar').removeClass('show_nav');
+  }
+});
+
+
+$('#pricing_nav_item').click(function () {
+
+  $('#pricing_navbar').animate({
+    scrollTop: 0
+  }, 100);
+
+  if ($('#pricing_navbar').hasClass('d-none')) {
+    $('#service_navbar').addClass('d-none');
+    $('#bg_overlay').addClass('d-none');
+    $('#service_navbar').removeClass('show_nav');
+
+    $('#pricing_navbar').removeClass('d-none');
+    $('#bg_overlay').removeClass('d-none');
+    setTimeout(function () {
+      $('#pricing_navbar').addClass('show_nav');
+    }, 50);
+  } else {
+    $('#pricing_navbar').addClass('d-none');
+    $('#bg_overlay').addClass('d-none');
+    $('#pricing_navbar').removeClass('show_nav');
+  }
+});
+// Outside Div Selection For Sticky Nav || End
