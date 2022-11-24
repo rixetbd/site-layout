@@ -154,7 +154,7 @@
     align-items: center;
     background: #f8f8f8;
     border-radius: 5px;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 #sp_box_root .sp_box.active,
 #sp_box_root .sp_box:hover{
@@ -165,5 +165,11 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+.nav_focus_text{
+    font-size: 35px;
+    color: #444444;
+    font-weight: 800;
 }
 /* sp_box_root || End */
