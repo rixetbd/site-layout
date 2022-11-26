@@ -25,6 +25,10 @@ li {
     font-size: 14px;
 }
 
+p{
+    line-height: 25px !important;
+}
+
 .di_container,
 .di_container-fluid,
 .di_container-lg,

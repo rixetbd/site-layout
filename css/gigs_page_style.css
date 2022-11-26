@@ -1,0 +1,127 @@
+.gigs_heading_area{
+    padding: 40px;
+    margin-bottom: 40px;
+    /* background-color: #466b8a;; */
+}
+
+
+
+.gigs_pricing_card_area{
+    padding: 40px;
+}
+
+.gigs_single_pricing_card{
+    min-height: 250px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.gigs_single_pricing_card:nth-child(2){
+    min-height: 270px !important;
+}
+
+
+.gigs_single_pricing_card .first_section{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.gigs_single_pricing_card .mid_section{
+    padding: 0 25px;
+}
+
+.gigs_single_pricing_card ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gigs_single_pricing_card ul svg{
+    margin-right: 5px;
+}
+
+.gigs_single_pricing_card .footer_section{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.footer_section .gigs_single_pricing_btn{
+    background: transparent;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 2px solid #5a80a0;
+    border-radius: 0;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.footer_section .gigs_single_pricing_btn:hover{
+    background-color: #5a80a0;
+}
+
+.gigs_section{
+    padding: 0 40px;
+}
+
+.gigs_section ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gigs_faq_section{
+    color: #fff;
+    background-color: #5a80a0;
+}
+
+
+.gigs_section .accordion-item{
+    border-bottom: 1px solid #5a80a0;
+    background-color: transparent;
+    color: #fff;
+}
+
+.gigs_section .accordion-button{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 10px;
+}
+.gigs_section #accordionFlushFAQ .accordion-button::after{
+    font-size: 30px;
+}
+
+.gigs_section #accordionFlushFAQ .accordion-button:not(.collapsed){
+    color: #fddb3a;
+    background-color: #364e62;
+    box-shadow: none;
+}
+
+.gigs_section #accordionFlushFAQ .accordion-body{
+    background: #0000001a;
+}
+
+.gigs_section .accordion-button:hover{
+    color: #fdba13;
+}
+ul.square_color svg{
+    color: #5a80a0;
+    margin-right: 7px;
+}
+ul.square_color li{
+    padding: 5px 0;
+}
+
+ul.li_space li{
+    padding: 5px 0;
+}
+
+#compare_packages_table td{
+    font-size: 14px;
+    padding: .75rem .5rem;
+}
+#compare_packages_table .btn_theme{
+    background-color: #5a80a0;
+    color: #fff;
+}
