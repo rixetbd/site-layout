@@ -93,13 +93,16 @@
 }
 
 .gigs_section #accordionFlushFAQ .accordion-button:not(.collapsed){
-    color: #fddb3a;
-    background-color: #364e62;
+    color: #000;
+    background-color: #fff;
     box-shadow: none;
+    font-weight: 600;
 }
 
 .gigs_section #accordionFlushFAQ .accordion-body{
-    background: #0000001a;
+    background: #fff;
+    color: #000;
+    border-top: 1px solid #ddd;
 }
 
 .gigs_section .accordion-button:hover{
