@@ -24,19 +24,19 @@
     background-color: #fff;
     /* box-shadow: -1px 0px 0px 0px #fff, 1px 0px 0px 0px #fff; */
 }
+
 /* 
-
-#service_navbar::-webkit-scrollbar{
-    width: 10px;
-    border-radius: 10px;
+#service_navbar .container::-webkit-scrollbar{
+    width: 15px;
+    border-radius: 0;
 }
 
-#service_navbar::-webkit-scrollbar-track {
-    background: #fff;
+#service_navbar .container::-webkit-scrollbar-track {
+   background: #dddddd;
 }
-#service_navbar::-webkit-scrollbar-thumb {
-    background: #aacae4;
-    border-radius: 10px;
+#service_navbar .container::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+    border-radius: 0;
 } */
 
 #service_navbar .container,
