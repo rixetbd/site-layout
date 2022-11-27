@@ -138,10 +138,10 @@
         outline: none;
         color: #fff;
         padding: 10px 20px;
-        border: 1px solid #ffffff4a;
+        border: 1px solid #5a80a0;
         border-right: 0;
         box-shadow: none;
-        background: #4457652d;
+        background: #fff;
         width: 50%;
         font-size: 12px;
         letter-spacing: 1px;
@@ -158,16 +158,16 @@
     }
 
     .briefing_div input::placeholder {
-        color: #f8f8f8;
+        color: #92b3ce;
         font-weight: 300;
     }
 
     .briefing_div button {
         /* padding: 10px; */
-        border: 1px solid #88a0b4;
+        border: 1px solid #5a80a0;
         border-left: 0;
         box-shadow: none;
-        background: #213d54;
+        background: #5a80a0;
         width: 50%;
         font-size: 12px;
         letter-spacing: 1px;
@@ -236,6 +236,7 @@
         padding: 8rem 5rem;
     }
 
+
     #header_top .special_text_box h2 {
         font-size: 5.5rem;
         letter-spacing: 0px;
@@ -296,10 +297,10 @@
         outline: none;
         color: #fff;
         padding: 10px 20px;
-        border: 1px solid #ffffff4a;
+        border: 1px solid #5a80a0;
         border-right: 0;
         box-shadow: none;
-        background: #4457652d;
+        background: #fff;
         width: 25%;
         font-size: 12px;
         letter-spacing: 1px;
@@ -316,16 +317,16 @@
     }
 
     .briefing_div input::placeholder {
-        color: #f8f8f8;
+        color: #92b3ce;
         font-weight: 300;
     }
 
     .briefing_div button {
         /* padding: 10px; */
-        border: 1px solid #88a0b4;
+        border: 1px solid #5a80a0;
         border-left: 0;
         box-shadow: none;
-        background: #213d54;
+        background: #5a80a0;
         width: 25%;
         font-size: 12px;
         letter-spacing: 1px;
@@ -387,13 +388,19 @@
         padding: 8rem 5rem;
     }
 
+    #header_top.single_service_page {
+        min-height: 400px !important;
+        padding: 3rem 5rem !important;
+        background-image: unset !important;
+    }
+
     #header_top .special_text_box h2 {
         font-size: 5.5rem;
         letter-spacing: 0px;
         /* transform: scaleY(1.25); */
         margin-bottom: 20px;
         line-height: 2rem;
-        text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 15%);
         color: #ffffff;
     }
 
@@ -402,7 +409,7 @@
         font-family: 'Raleway', sans-serif;
         color: #fff;
         line-height: 7rem;
-        text-shadow: 2px 5px 10px rgb(0 0 0 / 46%);
+        text-shadow: 2px 5px 10px rgb(0 0 0 / 20%);
     }
 
     #header_top h5 {
@@ -425,7 +432,7 @@
         position: relative;
         padding: 0 15px;
         font-size: 1.4rem;
-        text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
+        text-shadow: 2px 1px 5px rgb(0 0 0 / 20%);
     }
 
     #header_top .special_text_box ul li::after {
@@ -448,10 +455,10 @@
         outline: none;
         color: #fff;
         padding: 10px 20px;
-        border: 1px solid #ffffff4a;
+        border: 1px solid #5a80a0;
         border-right: 0;
         box-shadow: none;
-        background: #4457652d;
+        background: #fff;
         width: 25%;
         font-size: 12px;
         letter-spacing: 1px;
@@ -468,16 +475,16 @@
     }
 
     .briefing_div input::placeholder {
-        color: #f8f8f8;
+        color: #92b3ce;
         font-weight: 300;
     }
 
     .briefing_div button {
         /* padding: 10px; */
-        border: 1px solid #88a0b4;
+        border: 1px solid #5a80a0;
         border-left: 0;
         box-shadow: none;
-        background: #213d54;
+        background: #5a80a0;
         width: 25%;
         font-size: 12px;
         letter-spacing: 1px;

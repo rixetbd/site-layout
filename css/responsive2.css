@@ -897,6 +897,9 @@ span.cursor.typing {
     content: "";
 }
 
+.text_color_theme{
+    color: #5a80a0 !important;
+}
 
 
 
@@ -1327,3 +1330,18 @@ header {
 }
 
 /* Working Process Section CSS || End */
+
+
+/* Footer Section CSS || Start */
+.footer_area{
+    padding-top: 3rem;
+    background-color: #5a80a0;
+}
+.footer_area .links a{
+    color: #41444b;
+    margin: 0 10px;
+}
+.footer_area .copyright_text a{
+    color: #fff;
+}
+/* Footer Section CSS || End */
