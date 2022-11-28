@@ -347,7 +347,6 @@ a {
     /* overflow: hidden; */
     background-color: #fff;
     /* border-radius: 20px; */
-    padding-bottom: 2rem;
 }
 
 /* Main Section || End */
@@ -1357,3 +1356,27 @@ header {
     color: #fff;
 }
 /* Footer Section CSS || End */
+
+/* super_heading_text || Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+.super_heading_text span:first-child{
+    font-size: 90px;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.super_heading_text span:last-child{
+    font-size: 35px;
+    color: #000;
+    font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* super_heading_text || End */
