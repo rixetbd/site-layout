@@ -898,7 +898,7 @@ span.cursor.typing {
 }
 
 .text_color_theme{
-    color: #5a80a0 !important;
+    color: #fff !important;
 }
 
 
@@ -1269,10 +1269,11 @@ header {
 /* Working Process Section CSS || Start */
 
 #working_process {
-    padding: 5rem 0;
+    padding: 40px 40px;
+    padding-top: 0px;
     position: relative;
-    background-color: #5a80a0;
-    /* background-color: #213d54; */
+    /* background-color: #5a80a0; */
+    background-color: #47657e;
 }
 
 /* #working_process .content_box{
@@ -1290,8 +1291,10 @@ header {
 } */
 
 #working_process .row .content_box {
-    height: 240px;
-    background-color: #fff;
+    height: 220px;
+    width: 220px;
+    background-color: transparent;
+    border: 1px solid #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1300,9 +1303,10 @@ header {
 }
 
 #working_process .row .content_box img {
-    width: 180px;
-    filter: grayscale(1);
+    width: 135px;
+    /* filter: grayscale(1); */
     transition: .5s ease-in;
+    filter: brightness(2) grayscale(1);
 }
 
 #working_process .row .content_box:hover img {
@@ -1312,10 +1316,18 @@ header {
 }
 
 #working_process .row .content_box h4 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 300;
     padding-top: 1rem;
+    letter-spacing: .5px;
+    color: #fff;
 }
+
+#compare_packages_section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 
 .default_article h2 {
     font-size: 1.6rem;

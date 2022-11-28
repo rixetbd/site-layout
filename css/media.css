@@ -136,7 +136,7 @@
     .briefing_div input:focus-visible,
     .briefing_div input {
         outline: none;
-        color: #fff;
+        color: #000;
         padding: 10px 20px;
         border: 1px solid #5a80a0;
         border-right: 0;
@@ -295,7 +295,7 @@
     .briefing_div input:focus-visible,
     .briefing_div input {
         outline: none;
-        color: #fff;
+        color: #000;
         padding: 10px 20px;
         border: 1px solid #5a80a0;
         border-right: 0;
@@ -390,8 +390,10 @@
 
     #header_top.single_service_page {
         min-height: 400px !important;
-        padding: 3rem 5rem !important;
+        padding: 6rem 5rem !important;
         background-image: unset !important;
+        background: #47657e;
+        padding-top: 8rem !important;
     }
 
     #header_top .special_text_box h2 {
@@ -453,7 +455,7 @@
     .briefing_div input:focus-visible,
     .briefing_div input {
         outline: none;
-        color: #fff;
+        color: #000;
         padding: 10px 20px;
         border: 1px solid #5a80a0;
         border-right: 0;

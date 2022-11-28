@@ -7,7 +7,7 @@
 
 
 .gigs_pricing_card_area {
-    padding: 100px 40px;
+    padding: 50px 40px;
     padding-bottom: 50px;
 }
 
@@ -135,6 +135,11 @@ ul.li_space li {
 #compare_packages_table td {
     font-size: 14px;
     padding: .75rem .5rem;
+}
+
+#compare_packages_table td h3{
+    font-size: 20px;
+    margin: 0;
 }
 
 #compare_packages_table .btn_theme {
@@ -607,10 +612,14 @@ ul.li_space li {
 
 .contact_card_box div.col-sm-12 {
     padding: 4rem;
+    background-color: #fff;
 }
 
 .contact_card_box div.col-sm-12:nth-child(2) {
-    background-color: #47657e;
+    /* background-color: #47657e; */
+    background-image: url(../img/contact_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact_card_box input{
@@ -654,7 +663,7 @@ ul.li_space li {
 
 .contact_card_box .links a {
     display: block;
-    background-color: #5a80a0;
+    background-color: #2b3f50;
     color: #fff;
     padding: 13px 15px;
     margin: 10px 0;
