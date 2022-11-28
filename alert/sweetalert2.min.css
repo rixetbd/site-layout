@@ -264,7 +264,7 @@
     grid-template-columns: minmax(0, 100%);
     width: 25em !important;
     max-width: 100%;
-    padding: 0 0 1.25em;
+    padding: 1em 0 1em !important;
     border: none;
     border-radius: 5px;
     background: #fff;
