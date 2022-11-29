@@ -675,3 +675,11 @@ ul.li_space li {
 }
 
 /* Global Contact Area || Card CSS || End */
+
+/* gig_focus_title || Start */
+.gig_focus_title{
+    text-align: center;
+    font-size: 28px !important;
+    color: #fff;
+}
+/* gig_focus_title || End */

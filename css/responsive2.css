@@ -1363,14 +1363,14 @@ header {
 
 .super_heading_text span:first-child{
     font-size: 90px;
-    color: #000;
+    color: #5a80a0;
     font-weight: 900;
     font-family: 'Raleway', sans-serif;
 }
 
 .super_heading_text span:last-child{
     font-size: 35px;
-    color: #000;
+    color: #5a80a0;
     font-weight: 500;
 }
 
@@ -1380,3 +1380,37 @@ body{
     font-family: 'Lato', sans-serif;
 }
 /* super_heading_text || End */
+
+/* working_process || Start */
+.working_process_right_card{
+    padding: 15px 0;
+}
+.working_process_right_card_one{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: #9cb7cd;
+}
+.working_process_right_card_two{
+    width: 100%;
+    
+}
+.working_process_right_card_two h5{
+    color: #9cb7cd;
+    font-size: 24px;
+    font-weight: 700;
+}
+.working_process_right_card_two p{
+    margin: 0;
+    background-color: #5a80a0;
+    padding: 15px;
+    color: #fff;
+}
+/* working_process || End */
