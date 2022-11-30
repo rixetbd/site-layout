@@ -1,4 +1,4 @@
-.icons {
+.icons_area .icons {
   display: inline-block;
   height: 100%;
   max-width: 800px;
@@ -6,7 +6,7 @@
   vertical-align: top;
 }
 
-.icon-container {
+.icons_area .icon-container {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -58,7 +58,7 @@
   }
 }
 
-.icon {
+.icons_area .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,35 +69,35 @@
   background-repeat: no-repeat;
 }
 
-.icons-1 {
+.icons_area .icons-1 {
   margin-top: 0;
 }
 
-.icons-2 {
+.icons_area .icons-2 {
   margin-top: 50px;
 }
 
-.icons-3 {
+.icons_area .icons-3 {
   margin-top: 100px;
 }
 
-.icons-4 {
+.icons_area .icons-4 {
   margin-top: 150px;
 }
 
-.icons-5 {
+.icons_area .icons-5 {
   margin-top: 200px;
 }
 
-.icons-6 {
+.icons_area .icons-6 {
   margin-top: 250px;
 }
 
-.icons-7 {
+.icons_area .icons-7 {
   margin-top: 300px;
 }
 
-.icons-8 {
+.icons_area .icons-8 {
   margin-top: 350px;
 }
 
@@ -133,13 +133,6 @@
 }
 
 
-
-
-
-
-
-
-
 @media (min-width: 319px) and (max-width: 575.98px) {
 
   .icons_area {
@@ -167,39 +160,273 @@
   }
 
 
-  .icons-1 {
+  .icons_area .icons-1 {
     margin-top: 0;
   }
 
-  .icons-2 {
+  .icons_area .icons-2 {
     margin-top: 0px;
   }
 
-  .icons-3 {
+  .icons_area .icons-3 {
     margin-top: 50px;
   }
 
-  .icons-4 {
+  .icons_area .icons-4 {
     margin-top: 50px;
   }
 
-  .icons-5 {
+  .icons_area .icons-5 {
     margin-top: 100px;
   }
 
-  .icons-6 {
+  .icons_area .icons-6 {
     margin-top: 100px;
   }
 
-  .icons-7 {
+  .icons_area .icons-7 {
     margin-top: 150px;
   }
 
-  .icons-8 {
+  .icons_area .icons-8 {
     margin-top: 150px;
   }
 
 }
+
+
+/* ICONS FLOATING SECOND CSS || Start */
+.icons_area_sec .icons {
+  display: inline-block;
+  height: 100%;
+  max-width: 800px;
+  position: relative;
+  vertical-align: top;
+}
+
+.icons_area_sec .icon-container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgb(23 28 33 / 13%), 0 20px 13px 0 rgb(23 28 33 / 5%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 1;
+  -webkit-transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+  transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+  animation-duration: 4s;
+  height: 144px;
+  margin-left: 76px;
+  margin-top: -25px;
+  position: absolute;
+  width: 144px;
+  color: #0000009e;
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+.icons_area_sec .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.icons_area_sec .icons-1 {
+  margin-top: 0;
+}
+
+.icons_area_sec .icons-2 {
+  margin-top: 0;
+}
+
+.icons_area_sec .icons-3 {
+  margin-top: 50px;
+}
+
+.icons_area_sec .icons-4 {
+  margin-top: 50px;
+}
+
+.icons_area_sec .icons-5 {
+  margin-top: 100px;
+}
+
+.icons_area_sec .icons-6 {
+  margin-top: 100px;
+}
+
+.icons_area_sec .icons-7 {
+  margin-top: 150px;
+}
+
+.icons_area_sec .icons-8 {
+  margin-top: 150px;
+}
+
+
+.icons_area_sec {
+  padding-top: 1rem;
+  min-height: 250px;
+}
+
+.icons_area_sec .icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icons_area_sec .icons .icons-1,
+.icons_area_sec .icons .icons-3,
+.icons_area_sec .icons .icons-5,
+.icons_area_sec .icons .icons-7 {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  margin-left: -35%;
+  height: 35px;
+}
+
+.icons_area_sec .icons .icons-2,
+.icons_area_sec .icons .icons-4,
+.icons_area_sec .icons .icons-6,
+.icons_area_sec .icons .icons-8 {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  margin-left: 70%;
+  height: 35px;
+}
+
+.icons_area_sec .icons .icons-3,
+.icons_area_sec .icons .icons-7{
+  margin-left: -70%;
+}
+
+.icons_area_sec .icons .icons-4,
+.icons_area_sec .icons .icons-8{
+  margin-left: 35%;
+}
+
+
+
+.icons_area_sec .icons .icons-1,
+.icons_area_sec .icons .icons-4,
+.icons_area_sec .icons .icons-5,
+.icons_area_sec .icons .icons-8{
+  width: 65%;
+  /* margin-left: -35%; */
+}
+
+.icons_area_sec .icons .icons-2,
+.icons_area_sec .icons .icons-3,
+.icons_area_sec .icons .icons-6,
+.icons_area_sec .icons .icons-7{
+  width: 30%;
+  /* margin-left: 70%; */
+}
+
+
+
+
+
+
+
+
+@media (min-width: 319px) and (max-width: 575.98px) {
+
+  .icons_area_sec {
+    min-height: 220px;
+  }
+
+  .icons_area_sec .icons {
+    width: 100%;
+    display: flex;
+    justify-content: unset;
+  }
+
+  .icons_area_sec .icons .icons-1,
+  .icons_area_sec .icons .icons-3,
+  .icons_area_sec .icons .icons-5,
+  .icons_area_sec .icons .icons-7 {
+    margin-left: 5%;
+  }
+
+  .icons_area_sec .icons .icons-2,
+  .icons_area_sec .icons .icons-4,
+  .icons_area_sec .icons .icons-6,
+  .icons_area_sec .icons .icons-8 {
+    margin-left: 55% !important;
+  }
+
+
+  .icons_area_sec .icons-1 {
+    margin-top: 0;
+  }
+
+  .icons_area_sec .icons-2 {
+    margin-top: 0px;
+  }
+
+  .icons_area_sec .icons-3 {
+    margin-top: 50px;
+  }
+
+  .icons_area_sec .icons-4 {
+    margin-top: 50px;
+  }
+
+  .icons_area_sec .icons-5 {
+    margin-top: 100px;
+  }
+
+  .icons_area_sec .icons-6 {
+    margin-top: 100px;
+  }
+
+  .icons_area_sec .icons-7 {
+    margin-top: 150px;
+  }
+
+  .icons_area_sec .icons-8 {
+    margin-top: 150px;
+  }
+
+}
+/* ICONS FLOATING SECOND CSS || End */
 
 
 
@@ -220,7 +447,7 @@
   background-position: 0 -0.1em;
   /* background-image: linear-gradient(to right, yellow 0, lightgreen 100%); */
   /* background-image: linear-gradient(to right, #5a80a0 0, #f8f8f8 100%); */
-  background-image: linear-gradient(to right, #f8f8f8, #5a80a066, #f8f8f8);
+  background-image: linear-gradient(to right, #f8f8f8, #fddb3a, #f8f8f8);
 }
 
 /* Text Hover Effect Pack - 01 || End */

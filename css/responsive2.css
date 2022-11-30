@@ -1190,8 +1190,14 @@ header {
 }
 
 .rotate_box div h5 {
-    font-size: 20px;
+    font-size: 17px;
     opacity: 70%;
+}
+
+.rotate_box div h5.sub_category {
+    font-size: 22px;
+    opacity: 90%;
+    color: #000000;
 }
 
 .rotate_box div h4 {
