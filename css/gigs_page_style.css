@@ -98,10 +98,12 @@
     padding: 5px 10px;
 }
 
+.gigs_section #RigthAccordionFlushFAQ .accordion-button::after,
 .gigs_section #accordionFlushFAQ .accordion-button::after {
     font-size: 30px;
 }
 
+.gigs_section #RigthAccordionFlushFAQ .accordion-button:not(.collapsed),
 .gigs_section #accordionFlushFAQ .accordion-button:not(.collapsed) {
     color: #000;
     background-color: #fff;
@@ -109,6 +111,7 @@
     font-weight: 600;
 }
 
+.gigs_section #RigthAccordionFlushFAQ .accordion-body,
 .gigs_section #accordionFlushFAQ .accordion-body {
     background: #fff;
     color: #000;
@@ -137,7 +140,7 @@ ul.li_space li {
     padding: .75rem .5rem;
 }
 
-#compare_packages_table td h3{
+#compare_packages_table td h3 {
     font-size: 20px;
     margin: 0;
 }
@@ -396,11 +399,11 @@ ul.li_space li {
 .home_service_box .img_box img {
     width: 110px;
     height: 110px;
-    border: 10px solid #D8DBE1;
+    border: 2px solid #fff;
     padding: 15px;
     border-radius: 50%;
-    filter: invert(0%);
-    background-color: #fff;
+    /* filter: invert(100%); */
+    background-color: #5a80a0;
 }
 
 .home_service_box:hover .img_box h4 {
@@ -409,9 +412,9 @@ ul.li_space li {
 }
 
 .home_service_box:hover .img_box img {
-    filter: invert(100%);
+    /* filter: invert(100%);
     border-color: #000;
-    background-color: #ffffff4a;
+    background-color: #ffffff4a; */
     transition: all 1s;
     transform: rotateY(360deg);
 }
@@ -588,11 +591,11 @@ ul.li_space li {
     overflow: hidden;
 }
 
-.say_hello_box{
+.say_hello_box {
     padding-bottom: 40px;
 }
 
-.say_hello_box span{
+.say_hello_box span {
     font-size: 40px;
     display: block;
     color: #b8b9be;
@@ -601,7 +604,8 @@ ul.li_space li {
     margin: 0;
     line-height: 40px;
 }
-.say_hello_box span:nth-child(2){
+
+.say_hello_box span:nth-child(2) {
     padding-left: 20px;
     color: #4a4a4a;
 }
@@ -622,10 +626,11 @@ ul.li_space li {
     background-size: cover;
 }
 
-.contact_card_box input{
+.contact_card_box input {
     width: 74%;
     float: right;
 }
+
 .contact_card_box input,
 .contact_card_box textarea {
     box-shadow: none;
@@ -634,11 +639,13 @@ ul.li_space li {
     background: transparent;
     border-bottom: 1px solid #8a8a8a;
 }
-.contact_card_box input::placeholder{
+
+.contact_card_box input::placeholder {
     color: #ddd;
     text-align: center;
 }
-.contact_card_box textarea::placeholder{
+
+.contact_card_box textarea::placeholder {
     color: #ddd;
 }
 
@@ -677,9 +684,10 @@ ul.li_space li {
 /* Global Contact Area || Card CSS || End */
 
 /* gig_focus_title || Start */
-.gig_focus_title{
+.gig_focus_title {
     text-align: center;
     font-size: 28px !important;
     color: #fff;
 }
+
 /* gig_focus_title || End */

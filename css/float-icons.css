@@ -332,12 +332,12 @@
 }
 
 .icons_area_sec .icons .icons-3,
-.icons_area_sec .icons .icons-7{
+.icons_area_sec .icons .icons-7 {
   margin-left: -65%;
 }
 
 .icons_area_sec .icons .icons-4,
-.icons_area_sec .icons .icons-8{
+.icons_area_sec .icons .icons-8 {
   margin-left: 40%;
 }
 
@@ -346,7 +346,7 @@
 .icons_area_sec .icons .icons-1,
 .icons_area_sec .icons .icons-4,
 .icons_area_sec .icons .icons-5,
-.icons_area_sec .icons .icons-8{
+.icons_area_sec .icons .icons-8 {
   width: 65%;
   /* margin-left: -35%; */
 }
@@ -354,7 +354,7 @@
 .icons_area_sec .icons .icons-2,
 .icons_area_sec .icons .icons-3,
 .icons_area_sec .icons .icons-6,
-.icons_area_sec .icons .icons-7{
+.icons_area_sec .icons .icons-7 {
   width: 35%;
   /* margin-left: 70%; */
 }
@@ -426,6 +426,7 @@
   }
 
 }
+
 /* ICONS FLOATING SECOND CSS || End */
 
 

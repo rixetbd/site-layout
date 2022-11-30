@@ -40,39 +40,49 @@
 } */
 
 #service_navbar .container,
-#pricing_navbar .container{
+#pricing_navbar .container {
     border-top: 30px solid #5a80a0;
     border-left: 30px solid #5a80a0;
-    border-right:30px solid #5a80a0;
+    border-right: 30px solid #5a80a0;
     /* border-bottom: 30px solid #5a80a0; */
     /* padding: 2rem; */
     min-height: 60vh;
     height: 60vh;
     overflow: auto;
 }
-#pricing_navbar .container{
-    border-right:30px solid #5a80a0;
+
+#pricing_navbar .container {
+    border-right: 30px solid #5a80a0;
 }
 
 
-#service_nav_item{cursor: pointer;}
-#pricing_nav_item{cursor: pointer;}
+#service_nav_item {
+    cursor: pointer;
+}
 
-.service_group_title, .title_arrow svg{
+#pricing_nav_item {
+    cursor: pointer;
+}
+
+.service_group_title,
+.title_arrow svg {
     font-size: 14px;
     color: #000;
 }
-.title_arrow svg{
+
+.title_arrow svg {
     padding-top: 2.5px;
 }
-.service_group_title_two{
+
+.service_group_title_two {
     font-size: 16px;
 }
-.service_group_title_two svg{
+
+.service_group_title_two svg {
     color: #000;
 }
 
-#service_navbar p{
+#service_navbar p {
     font-size: 11px;
     color: #444444;
     opacity: 50%;
@@ -81,7 +91,7 @@
     line-height: 20px !important;
 }
 
-#pricing_navbar p{
+#pricing_navbar p {
     font-size: 11px;
     color: #444444;
     opacity: 50%;
@@ -90,7 +100,7 @@
 }
 
 /* bg_overlay */
-#bg_overlay{
+#bg_overlay {
     min-height: 100vh;
     width: 65%;
     position: fixed;
@@ -101,7 +111,7 @@
 }
 
 /* Menu */
-.mega_menu_area div a{
+.mega_menu_area div a {
     background-color: #f9f9f9;
     display: block;
     padding: 15px;
@@ -118,9 +128,10 @@
     color: #000;
 }
 
-.mega_menu_area div a.service_gigs_link:hover{
+.mega_menu_area div a.service_gigs_link:hover {
     background: #fddb3a;
 }
+
 /* .mega_menu_area div a:hover{
     background-color: #5a80a0;
     color: #5a80a0;
@@ -134,13 +145,13 @@
     color: #f3f3f3;
 } */
 
-.mega_menu_area .help_text_root{
+.mega_menu_area .help_text_root {
     position: relative;
     overflow: hidden;
     min-height: 120px;
 }
 
-.mega_menu_area .help_text{
+.mega_menu_area .help_text {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -155,11 +166,11 @@
     transition: .25s ease-in;
 }
 
-.mega_menu_area div a:hover .help_text{
+.mega_menu_area div a:hover .help_text {
     bottom: 0px;
 }
 
-.mega_menu_area .help_text .help_text_1{
+.mega_menu_area .help_text .help_text_1 {
     width: 100%;
     display: block;
     font-size: 12px;
@@ -168,7 +179,7 @@
 
 
 /* sp_box_root || Start */
-#sp_box_root .sp_box{
+#sp_box_root .sp_box {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -177,20 +188,22 @@
     border-radius: 5px;
     padding: 40px 0;
 }
+
 #sp_box_root .sp_box.active,
-#sp_box_root .sp_box:hover{
+#sp_box_root .sp_box:hover {
     background-color: #fddb3a;
 }
 
-#sp_box_root .sp_box h4{
+#sp_box_root .sp_box h4 {
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-.nav_focus_text{
+.nav_focus_text {
     font-size: 35px;
     color: #444444;
     font-weight: 800;
 }
+
 /* sp_box_root || End */
