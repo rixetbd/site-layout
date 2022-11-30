@@ -79,7 +79,7 @@
         /* transform: scaleY(1.25); */
         margin-bottom: 20px;
         line-height: 2rem;
-        text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+        text-shadow: 2px 5px 12px rgb(0 0 0 / 15%);
         color: #ffffff;
     }
 
@@ -92,15 +92,15 @@
     }
 
     #header_top {
-        min-height: 800px;
+        min-height: 700px;
         padding: 8rem 3rem;
     }
 
     #header_top h5 {
-        padding-top: 2rem;
+        padding-top: 0rem;
         font-size: 2.5rem;
         line-height: 3rem;
-        color: #fff;
+        color: #5a80a0;
         text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
     }
 
@@ -232,7 +232,7 @@
     }
 
     #header_top {
-        min-height: 900px;
+        min-height: 800px;
         padding: 8rem 5rem;
     }
 
@@ -243,7 +243,7 @@
         /* transform: scaleY(1.25); */
         margin-bottom: 20px;
         line-height: 2rem;
-        text-shadow: 2px 5px 10px rgb(0 0 0 / 60%);
+        text-shadow: 2px 5px 12px rgb(0 0 0 / 15%);
         color: #ffffff;
     }
 
@@ -259,7 +259,7 @@
         padding-top: 2rem;
         font-size: 2.5rem;
         line-height: 3rem;
-        color: #fff;
+        color: #5a80a0;
         text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
     }
 
@@ -384,8 +384,8 @@
     }
 
     #header_top {
-        min-height: 900px;
-        padding: 8rem 5rem;
+        min-height: 735px;
+        padding: 6rem 5rem;
     }
 
     #header_top.single_service_page {
@@ -402,7 +402,7 @@
         /* transform: scaleY(1.25); */
         margin-bottom: 20px;
         line-height: 2rem;
-        text-shadow: 2px 5px 10px rgb(0 0 0 / 15%);
+        text-shadow: 2px 5px 12px rgb(0 0 0 / 15%);
         color: #ffffff;
     }
 
@@ -415,10 +415,10 @@
     }
 
     #header_top h5 {
-        padding-top: 2rem;
+        padding-top: 0rem;
         font-size: 2.5rem;
         line-height: 3rem;
-        color: #fff;
+        color: #5a80a0;
         text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.46);
     }
 
@@ -427,7 +427,7 @@
         list-style: none;
         justify-content: center;
         width: 100%;
-        color: #fff;
+        color: #5a80a0;
     }
 
     #header_top .special_text_box ul li {

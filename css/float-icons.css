@@ -276,33 +276,33 @@
 }
 
 .icons_area_sec .icons-3 {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .icons_area_sec .icons-4 {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .icons_area_sec .icons-5 {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .icons_area_sec .icons-6 {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .icons_area_sec .icons-7 {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 .icons_area_sec .icons-8 {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 
 .icons_area_sec {
   padding-top: 1rem;
-  min-height: 250px;
+  min-height: 270px;
 }
 
 .icons_area_sec .icons {
@@ -318,7 +318,7 @@
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
   margin-left: -35%;
-  height: 35px;
+  height: 50px;
 }
 
 .icons_area_sec .icons .icons-2,
@@ -328,17 +328,17 @@
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
   margin-left: 70%;
-  height: 35px;
+  height: 50px;
 }
 
 .icons_area_sec .icons .icons-3,
 .icons_area_sec .icons .icons-7{
-  margin-left: -70%;
+  margin-left: -65%;
 }
 
 .icons_area_sec .icons .icons-4,
 .icons_area_sec .icons .icons-8{
-  margin-left: 35%;
+  margin-left: 40%;
 }
 
 
@@ -355,7 +355,7 @@
 .icons_area_sec .icons .icons-3,
 .icons_area_sec .icons .icons-6,
 .icons_area_sec .icons .icons-7{
-  width: 30%;
+  width: 35%;
   /* margin-left: 70%; */
 }
 
@@ -447,7 +447,8 @@
   background-position: 0 -0.1em;
   /* background-image: linear-gradient(to right, yellow 0, lightgreen 100%); */
   /* background-image: linear-gradient(to right, #5a80a0 0, #f8f8f8 100%); */
-  background-image: linear-gradient(to right, #f8f8f8, #fddb3a, #f8f8f8);
+  /* background-image: linear-gradient(to right, #f8f8f8, #fddb3a, #f8f8f8); */
+  background-image: linear-gradient(to right, #fff, #F73246, #fff);
 }
 
 /* Text Hover Effect Pack - 01 || End */
