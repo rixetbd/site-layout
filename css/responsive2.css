@@ -1177,10 +1177,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-right: -10px;
-    border-right: 30px solid #5a80a0;
+    border-right: 1px solid #d5d5d5;
+    position: relative;
+    
 }
+
+.rotate_box::after{
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 30px;
+    background-color: #5a80a0;
+    top: 0;
+    right: -15px;
+}
+
+/* .single_part:hover .rotate_box::after {
+    height: 100%;
+    transition: .65s ease;
+} */
+.active_after_effect .rotate_box::after {
+    height: 100%;
+    transition: .65s ease;
+}
+  
 
 .rotate_box div hr {
     /* margin: 0.15rem 0; */

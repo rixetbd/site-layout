@@ -2,14 +2,28 @@
   $(window).on("scroll", function () {
     //Loop Sections
     $(".service_card_offset").each(function (i, d) {
+
+      
       //And Get Current One
       var windowScroll = $(window).scrollTop();
       var service_card_offset = $(this).offset().top - 500;
       if (windowScroll > service_card_offset) {
+        
+        
         $('.service_index').removeClass('active');
         $(`.service_index:eq(${i})`).addClass('active');
         $('.accordion-collapse').removeClass('show');
         $(`.service_index:eq(${i})`).parents('.accordion-body').parents('.accordion-collapse').addClass('show');
+        $(".service_card_offset").removeClass('active_after_effect');
+        
+        if ($(this).hasClass('active_after_effect')) {
+          console.log('N/A')
+        }else{
+          $(this).addClass('active_after_effect');
+        }
+
+        
+      
       }
 
       // if ($(`.service_index:eq(${1})`).offset().top < 1000) {
