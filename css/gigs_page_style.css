@@ -396,12 +396,18 @@ ul.li_space li {
     color: #fff;
 }
 
+.home_service_box .img_box div{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .home_service_box .img_box img {
     width: 110px;
     height: 110px;
-    border: 2px solid #fff;
     padding: 15px;
-    border-radius: 50%;
+    /* border: 2px solid #fff;
+    border-radius: 50%; */
     /* filter: invert(100%); */
     background-color: #5a80a0;
 }
@@ -433,8 +439,9 @@ ul.li_space li {
 }
 
 .home_service_box .content_box p {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 20px !important;
+    min-height: 125px;
     text-align: center;
 }
 
