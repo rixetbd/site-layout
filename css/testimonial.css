@@ -3,7 +3,7 @@
 	position: relative;
 }
 
-.sec-title::after {
+/* .sec-title::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -11,7 +11,7 @@
 	width: 100px;
 	height: 3px;
 	background: #000;
-}
+} */
 
 .sec-title h2 {
 	font-size: 60px;
@@ -70,7 +70,7 @@
 	position: absolute;
 	left: -35px;
 	top: -35px;
-	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat #5a80a0;
+	background: url('../img/quote.png') no-repeat #5a80a0;
 	background-size: 60%;
 	width: 126px;
 	height: 100px;
@@ -83,7 +83,7 @@
 	position: absolute;
 	right: -35px;
 	bottom: -34px;
-	background: url(https://i.ibb.co/nb8Hjms/quote.png) no-repeat #5a80a0;
+	background: url('../img/quote.png') no-repeat #5a80a0;
 	background-size: 60%;
 	width: 126px;
 	height: 100px;

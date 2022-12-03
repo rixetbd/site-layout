@@ -84,3 +84,18 @@ industry_nameLoop();
 // setInterval(function () {
 //     industry_nameLoop();
 // }, interval);
+
+
+// service_need_list_more || Btn || Click
+$('#service_need_list_more').click(()=>{
+    // $('.service_need_list .d-flex').addClass('all_data');
+    
+    if ($('.service_need_list .d-flex').hasClass('all_data')) {
+        $('#service_need_list_more').html('More');
+        $('.service_need_list .d-flex').removeClass('all_data');
+    } else {
+        $('#service_need_list_more').html('Less');
+        $('.service_need_list .d-flex').addClass('all_data');
+      }
+
+});

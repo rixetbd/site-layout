@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <!-- <link href="css/semantic.min.css" rel="stylesheet">
+    <link href="css/semantic-icon.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/responsive2.css" rel="stylesheet">
     <link href="css/float-icons.css" rel="stylesheet">
@@ -20,9 +22,60 @@
     <link href="css/mainpage_page.css" rel="stylesheet">
 
     <style>
-        /* *{
-            user-select: none;
-        } */
+        .leads_data_table {
+            white-space: nowrap;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+        }
+
+        .font_poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .filter_btn .btn_city {
+            display: inline-block;
+            justify-content: space-between;
+            align-items: center;
+            /* box-shadow: 0 0 10px 0 #ddd; */
+            border-radius: 2px !important;
+            /* border: 1px solid #dbdbdb !important; */
+            border: none;
+            padding: 5px 10px !important;
+            font-size: 14px;
+            width: 175px;
+            background: #f8f8f8;
+            transition: all 0.3s ease 0s;
+            text-align: left;
+        }
+
+        .btn_city input[type="checkbox"] {
+            margin-top: 4px;
+            float: right;
+            transform: scale(1.2);
+        }
+
+        .leads_data_table th {
+            background-color: #5a80a0 !important;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            border: 1px solid #0000004d;
+            border-right: 1px solid #cbdaec;
+        }
+
+        .leads_data_table th:last-child {
+            border-right: 1px solid #0000004d;
+        }
+
+        .leads_data_table td {
+            border: 1px solid #0000004d;
+        }
+
+        .bg_theme {
+            color: #fff;
+            background-color: #47657e !important;
+        }
     </style>
 </head>
 
@@ -261,7 +314,7 @@
                                 <h3 class="service_group_title_two"><i class="fas fa-bullhorn me-2"></i> Digital
                                     Marketing</h3>
                                 <div class="mb-3">
-                                    <a class="help_text_root" href="#">
+                                    <a class="help_text_root" href="lead-generation.html">
                                         <span class="service_group_title">Lead Generation Services</span>
                                         <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
                                         <p>Increase your prospective Client base & get back-to-back dealing customers
@@ -304,8 +357,8 @@
                                     </a>
                                 </div>
                                 <div class="mb-3">
-                                    <a class="help_text_root" href="#">
-                                        <span class="service_group_title">Content Marketing</span>
+                                    <a class="help_text_root" href="content-writing.html">
+                                        <span class="service_group_title">Content Writing</span>
                                         <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
                                         <p>Impress your impending Consumer and rank your website With our reliable
                                             content writing.</p>
@@ -872,28 +925,15 @@
                             </form>
                         </section>
 
-
                         <section class="padding_40 clickable_links_area">
-                            <h5 class="text-white">You may need...</h5>
-                            <div class="d-flex">
-                                <a href="#">B2B Lead Generation</a>
-                                <a href="#">B2C Lead Generation</a>
-                                <a href="#">On Page SEO</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">B2B Lead Generation</a>
-                                <a href="#">B2C Lead Generation</a>
-                                <a href="#">On Page SEO</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
+                            <div class="p-4 service_need_list">
+                                <h5 class="text-white">You may need</h5>
+                                <div class="d-flex auto_height">
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">Web Research</a>
+                                    <a href="#">Data Scraping</a>
+                                </div>
                             </div>
                         </section>
 
@@ -961,7 +1001,7 @@
                                         </div>
 
                                         <p class="text-justify" style="opacity: 70%;font-style: italic;">Your main goal
-                                            should be to make sure that your
+                                            should be to make sure that your <br>
                                             <span id="industry_name">Software Industry</span>, <br>is easier to
                                             navigate
                                             and
@@ -1064,41 +1104,14 @@
                                         </div>
                                         <div class="s_card_content">
                                             <div>
-                                                <h3>Lead Generation</h3>
+                                                <h3>B2B Lead Generation</h3>
 
-                                                <h4>Find Your Targeted Audience</h4>
-                                                <p>Lead Generation services are a fundamental segment of growing your
-                                                    business's
-                                                    revenue.</p>
-
-                                                <p class="text_600">As per the Web Report, 85% of B2B marketers say lead
-                                                    generation is their most important content marketing goal.</p>
-
-                                                <p>That is why we create solid lead-generation strategies for you to
-                                                    present
-                                                    organized & updated leads about your products and services.
-                                                    To bring new customers into your sales funnel and convert them into
-                                                    your
-                                                    target audience, you need top-notch leads, and that's why many
-                                                    companies
-                                                    invest in lead generation services. With lead generation, you can
-                                                    find
-                                                    your
-                                                    targeted company, their revenue, number, email & much other
-                                                    information
-                                                    that
-                                                    can help quickly reach your audience.</p>
-
-                                                <h4>Get Qualified leads With DiMarz</h4>
-                                                <p>Dimarz provides customized support tailored to your business's needs–
-                                                    we
-                                                    can
-                                                    make it happen no matter what type of leads you want. We have an
-                                                    expert
-                                                    team
-                                                    of lead generation that can get you the results you need. Using our
-                                                    services, you can acquire more qualified leads for your company.</p>
-
+                                                <p>Every day your sales team is looking for warm and qualified leads to
+                                                    work with. Our Lead generation Specialists work with you to fill
+                                                    your team’s sales pipeline with quality leads. We work with you to
+                                                    structure and implement a lead generation strategy that is built
+                                                    upon marketing mechanization. It allows us to rise it fast and
+                                                    optimize it on the fly.</p>
                                                 <div class="s_card_absolute_2">
                                                     <a class="btn" href="#" style="font-size: 14px;"><span
                                                             class="text_1">You can
@@ -1110,11 +1123,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="s_card_absolute_2">
-                                    <a class="btn" href="#" style="font-size: 14px;"><span class="text_1">You can
-                                            discover everything for your needs</span><span class="text_2">Visit Page <i
-                                                class="fas fa-arrow-right"></i></span></a>
-                                </div> -->
                                 </div>
                             </div>
                         </section>
@@ -1140,57 +1148,25 @@
                                                     <hr>
                                                     <h5 class="sub_category">Lead Generation</h5>
                                                     <hr>
-                                                    <h4 class="m-0 p-0 underlined underlined--gradient">Search Engine
-                                                        Optimization</h4>
+                                                    <h4 class="m-0 p-0 underlined underlined--gradient">Web Research
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="s_card_content">
                                             <div>
                                                 <div>
-                                                    <h3>Search Engine Optimization (SEO)</h3>
+                                                    <h3>Web Research</h3>
                                                 </div>
 
-                                                <h4>Importance Of SEO</h4>
-                                                <p class="text_600">As per globally research 51% of all website traffic
-                                                    comes
-                                                    from
-                                                    organic searches.</p>
-                                                <p>But many websites aren’t getting the audiences they deserve. Why?
-                                                    Because,
-                                                    most of
-                                                    the sites that are on the internet aren’t properly Search Engine
-                                                    Optimized.
-                                                    DiMarz
-                                                    has got the solutions for your SEO.</p>
-
-                                                <h4>We Know What Works For You</h4>
-                                                <blockquote>“High-quality content and links are the best way to rank
-                                                    well on
-                                                    Google.” -
-                                                    Search Engine Land</blockquote>
-
-                                                <p>So, our experts will optimize your website for search engines with
-                                                    smart,
-                                                    healthy &
-                                                    best search engine approaches that will help you to get the top spot
-                                                    of
-                                                    any
-                                                    <strong title="Search Engine Ranking Position">SERP(Search Engine
-                                                        Ranking
-                                                        Position)</strong>. We will handle & optimize your Contents,
-                                                    keywords, landing pages and other major aspects to bring the best
-                                                    results.
+                                                <p>
+                                                    We believe that business success comes from doing what you’re good
+                                                    at. As integrated lead generation Specialists, we can act as your
+                                                    marketing team, or as an extension of your in-house team, so you can
+                                                    concentrate on managing other tasks. When we work with you, we
+                                                    ensure that the lead generation practices we put in action are
+                                                    multi-channel and that we innovate – in both tactics and strategy.
                                                 </p>
-
-                                                <p>By deeply auditing the Technical, On-Page & Off-page status of your
-                                                    website
-                                                    and
-                                                    applying persuasive SEO strategies, your website will gain more
-                                                    traffic
-                                                    to
-                                                    your
-                                                    website. DiMarz will make sure of that.</p>
 
 
                                                 <div class="s_card_absolute_2">
@@ -1230,46 +1206,24 @@
                                                     <hr>
                                                     <h5 class="sub_category">Lead Generation</h5>
                                                     <hr>
-                                                    <h4 class="m-0 p-0 underlined underlined--gradient">Email Marketing
-                                                    </h4>
+                                                    <h4 class="m-0 p-0 underlined underlined--gradient">B2C LEAD
+                                                        Generation</h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="s_card_content">
-
                                             <div>
-
                                                 <div>
-                                                    <h3>Email Marketing</h3>
+                                                    <h3>B2C LEAD Generation</h3>
                                                 </div>
 
-                                                <h4>A Potential Weapon To Scale Up Businesses</h4>
-                                                <blockquote>“A majority of marketers using email leverage
-                                                    mobile-friendly
-                                                    emails
-                                                    as part of their marketing strategy.” (Hubspot)</blockquote>
-                                                <p>Email marketing plays a vital role in the Digital Marketing sector as
-                                                    it
-                                                    is a
-                                                    direct ticket to advertise your product to potential customers. A
-                                                    well
-                                                    organized campaign can bring greater revenue, higher ROI and more
-                                                    engagement
-                                                    to your brand.</p>
-
-                                                <h4>We Ensure Minimal Bounce Rate & Decent Engagement</h4>
-
-                                                <p>The first thing that everybody fears about email marketing is the
-                                                    heavy
-                                                    bounce rates which leads people to take it as a waste of money. But,
-                                                    it's
-                                                    totally different with DiMarz. We value your time and money. Our
-                                                    campaign
-                                                    will ensure you a decent brand engagement along with minimal bounce
-                                                    rate.
-                                                    With the latest technologies and researches, we will ensure a decent
-                                                    result
-                                                    with our service.</p>
+                                                <p>Lead generation is essential for moving your business onward. New B2C
+                                                    leads can help your business by building your customer base. With
+                                                    our business-to-consumer (B2C) lead generation services, you can
+                                                    reach more qualified prospects. By understanding your precise needs,
+                                                    we create a custom lead generation strategy that will effortlessly
+                                                    educate, allure, and nurture the interest of your leads to help them
+                                                    recognize the merits of becoming your customer.</p>
                                                 <div class="s_card_absolute_2">
                                                     <a class="btn" href="#" style="font-size: 14px;"><span
                                                             class="text_1">You
@@ -1294,6 +1248,366 @@
                             <div class="arrow-1 animated hinge infinite zoomIn"></div>
                         </div> -->
                         </div>
+
+                        <section class="single_part service_card_section overflow-hidden service_card_offset">
+                            <div class="row align-items-center">
+                                <div class="s_card">
+                                    <div class="row">
+                                        <div class="p-0 rotate_box_main" style="background-color: #1b3348;">
+                                            <div class="rotate_box">
+                                                <div class="w-100">
+                                                    <h6>Service</h6>
+                                                    <hr>
+                                                    <h5>Digital Marketing</h5>
+                                                    <hr>
+                                                    <h5 class="sub_category">Lead Generation</h5>
+                                                    <hr>
+                                                    <h4 class="m-0 p-0 underlined underlined--gradient">Data Scraping
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="s_card_content">
+                                            <div>
+                                                <div>
+                                                    <h3>Data Scraping</h3>
+                                                </div>
+
+                                                <p>Your ability to extract and analyze web data at scale can constantly
+                                                    be the difference between business failure and success. Our web
+                                                    scraping services help you to do everything from sourcing
+                                                    competitive pricing to auditing trader's directories to monitoring
+                                                    consumer sentiment.Our data scraping process is dedicated to every
+                                                    stage of developing a strong, secure, scalable & result-oriented
+                                                    solution that meets your needs. Our process is highly flexible that
+                                                    adapts, evolves, and responds as per your exceptional needs.
+                                                </p>
+                                                <div class="s_card_absolute_2">
+                                                    <a class="btn" href="#" style="font-size: 14px;"><span
+                                                            class="text_1">You
+                                                            can
+                                                            discover everything for your needs</span><span
+                                                            class="text_2">Visit
+                                                            Page <i class="fas fa-arrow-right"></i></span></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="line_breaker">
+                            <div class="line"></div>
+                            <!-- <div class="icon_box">
+                            <i class="fas fa-caret-left"></i><i class="fas fa-caret-right"></i>
+                            <div class="arrow-1 animated hinge infinite zoomIn"></div>
+                        </div> -->
+                        </div>
+
+                        <section class="padding_40">
+                            <div class="lead_data_table">
+
+                                <div class="focus_line_after_title text_dark_theme bg_white pt-5">
+                                    <h4>Sample Of Leads Table</h4>
+                                </div>
+                                <p class="text-center">You can customize your needs as you seen below demo.</p>
+
+
+                            </div>
+                        </section>
+
+
+                        <section class="padding_40 pb-5">
+                            <!-- <div class="pb-3">
+                                <div class="row justify-content-between align-items-end pt-4">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <h4 style="font-size:25px;text-transform:uppercase;">Search Specific Leads</h4>
+                                        <div class="col-12 search_div" id="country_Name_Box">
+                                            <input type="hidden" id="country_Name_catch">
+                                            <label for="" class="w-100" style="text-transform:uppercase;">Country Name
+                                            </label>
+                                            <div class="ui fluid search selection dropdown" id="country_Name">
+                                                <input type="hidden" name="country" id="country_Name_Input">
+                                                <i class="dropdown icon"></i>
+                                                <div class="default text">Search Country</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1"><i class="AO flag"></i> Country
+                                                        Name
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9">
+                                        <button class="btn btn_city text-white float-end bg_theme_tomato"
+                                            id="Filterreset">
+                                            <div class="ui toltip" data-content="You can reset filter"
+                                                data-position="top center">
+                                                RESET ALL
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 row" style="padding-bottom:15px;border-bottom:1px solid #fff">
+                                    <div class="col-xs-12 col-sm-12 col-md-3" id="NullData">
+                                        <div class="col-12 search_div" id="">
+                                            <label for="" class="w-100" style="text-transform:uppercase;">City
+                                                Name</label>
+                                            <div class="ui toltip"
+                                                data-content="You can choose multiple cities as per your needs"
+                                                data-position="left center">
+                                                <select name="states" class="ui fluid search dropdown city_Name"
+                                                    id="city_Name">
+                                                    <option value="">All Cities</option>
+                                                    <option value="id">City Name</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-9 mt-3" id="city_name_display">
+                                        <label for="" class="w-100" style="min-height: 24px;">&nbsp;</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 row" style="padding-bottom: 15px;border-bottom:1px solid #fff">
+                                    <div class="col-xs-12 col-sm-12 col-md-3" id="NullData">
+                                        <div class="col-12 search_div" id="">
+                                            <label for="" class="w-100" style="text-transform:uppercase;">Industry
+                                                Name</label>
+                                            <div class="ui toltip" data-content="You can choose multiple industry"
+                                                data-position="left center">
+                                                <select name="states" class="ui fluid search dropdown city_Name"
+                                                    id="industry_Name">
+                                                    <option value="">All Industry</option>
+                                                    <option value="id">Industry Name</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-9 mt-3" id="industry_Name_display">
+                                        <label for="" class="w-100" style="min-height: 24px;">&nbsp;</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="row my-3 filter_btn">
+
+                                </div>
+
+                                <div class="row my-3 filter_btn font_poppins">
+
+                                    <div class="col-2"> <label class="btn btn_city w-100" id="table_Name">Person Name
+                                            <input type="checkbox" disabled checked id="table_Name_IN"></label></div>
+                                    <div class="col-2"><label class="btn btn_city w-100" id="table_Title">Job Title
+                                            <input type="checkbox" disabled checked id="table_Title_IN"></label></div>
+                                    <div class="col-2"><label class="btn btn_city w-100" id="table_Company">Company Name
+                                            <input type="checkbox" disabled checked id="table_Company_IN"></label></div>
+                                    <div class="col-2"><label class="btn btn_city w-100" id="table_City">City <input
+                                                type="checkbox" disabled checked id="table_City_IN"></label></div>
+                                    <div class="col-2"><label class="btn btn_city w-100" id="">Industry <input
+                                                type="checkbox" disabled checked id="table_City_IN"></label></div>
+                                    <div class="col-2">
+                                        <div class="ui toltip" data-content="Selected Tabs Action"
+                                            data-position="top center">
+                                            <label class="btn btn_city w-100 bg_theme" id="table_refresh">All Tabs
+                                                Selected</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row filter_btn">
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_Email">Email <input type="checkbox"
+                                                checked id="table_Email_IN"></label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_Phone">Phone <input type="checkbox"
+                                                checked id="table_Phone_IN"></label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_Company_Size">Company Size <input
+                                                type="checkbox" checked id="table_Company_Size_IN"></label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_Revenue">Revenue <input
+                                                type="checkbox" checked id="table_Revenue_IN"></label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_Zip_code">Zip Code <input
+                                                type="checkbox" checked id="table_Zip_code_IN"></label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="btn btn_city w-100" id="table_URL">Website <input type="checkbox"
+                                                checked id="table_URL_IN"></label>
+                                    </div>
+
+                                </div>
+                            </div> -->
+
+                            <div class="col-lg-12 col-md-12 col-sm-12" style="overflow-x:auto;">
+                                <table class="table table-responsive cell-border TableIDADD leads_data_table"
+                                    id="myTableSimple">
+                                    <thead>
+                                        <th>Person Name</th>
+                                        <th style="">Job Title</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th style="min-width: 170px;">Company Name</th>
+                                        <th style="width: 105px;min-width: 105px;">Company Size</th>
+                                        <th>Revenue</th>
+                                        <th style="min-width: 100px;">City</th>
+                                        <th style="min-width: 72px;">Zip Code</th>
+                                        <th>Website</th>
+                                    </thead>
+                                    <tbody id="lead_data">
+                                        <tr class="odd">
+                                            <td class="sorting_1">Abraham Ivor</td>
+                                            <td>Partner</td>
+                                            <td>abr****@*****al.ca</td>
+                                            <td>4898****</td>
+                                            <td>Abraham Legal S...</td>
+                                            <td>10 to 30</td>
+                                            <td>5 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***..ca</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Adele Tagirova</td>
+                                            <td>Partner</td>
+                                            <td>ade****@*****y.com</td>
+                                            <td>4414****</td>
+                                            <td>Adele Tagirova...</td>
+                                            <td>11 to 50</td>
+                                            <td>5 M</td>
+                                            <td>British Columbia</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***.com</td>
+                                        </tr>
+                                        <tr class="odd">
+
+                                            <td class="sorting_1">Andrew Ain</td>
+                                            <td>Manager</td>
+                                            <td>aai****@*****d.com</td>
+                                            <td>8171****</td>
+                                            <td>Ain Whitehead L...</td>
+                                            <td>11 to 50</td>
+                                            <td>5 M</td>
+                                            <td>Barrie</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***.com</td>
+                                        </tr>
+                                        <tr class="even">
+
+                                            <td class="sorting_1">Andrew Iacobelli</td>
+                                            <td>Partner</td>
+                                            <td>iac****@*****w.com</td>
+                                            <td>1070****</td>
+                                            <td>Iacobelli Law F...</td>
+                                            <td>11 to 50</td>
+                                            <td>5 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***.com</td>
+                                        </tr>
+                                        <tr class="odd">
+
+                                            <td class="sorting_1">Andrew Stewart</td>
+                                            <td>CEO</td>
+                                            <td>ast****@*****w.com</td>
+                                            <td>0626****</td>
+                                            <td>Dale Streiman A...</td>
+                                            <td>11 to 50</td>
+                                            <td>18 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***.com</td>
+                                        </tr>
+                                        <tr class="even">
+
+                                            <td class="sorting_1">Angela K. Brown</td>
+                                            <td>Partner</td>
+                                            <td>abr****@*****al.ca</td>
+                                            <td>1889****</td>
+                                            <td>Templeman LLP</td>
+                                            <td>51 to 200</td>
+                                            <td>13 M</td>
+                                            <td>Belleville</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***..ca</td>
+                                        </tr>
+                                        <tr class="odd">
+
+                                            <td class="sorting_1">Anita Taneja</td>
+                                            <td>Partner</td>
+                                            <td>ani****@*****aw.ca</td>
+                                            <td>4000****</td>
+                                            <td>Taneja Law</td>
+                                            <td>44586</td>
+                                            <td>5 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***..ca</td>
+                                        </tr>
+                                        <tr class="even">
+
+                                            <td class="sorting_1">Anne Downton</td>
+                                            <td>Partner</td>
+                                            <td>ann****@*****w.com</td>
+                                            <td>2290****</td>
+                                            <td>Dhindsa Law-Cri...</td>
+                                            <td>11 to 50</td>
+                                            <td>5 M</td>
+                                            <td>Abbotsford</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***..ca</td>
+                                        </tr>
+                                        <tr class="odd">
+
+                                            <td class="sorting_1">Antar Kahlon</td>
+                                            <td>Partner</td>
+                                            <td>ant****@*****w.com</td>
+                                            <td>8444****</td>
+                                            <td>Kahlon Law Offi...</td>
+                                            <td>11 to 50</td>
+                                            <td>5 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***..ca</td>
+                                        </tr>
+                                        <tr class="even">
+
+                                            <td class="sorting_1">Anthony Anushika</td>
+                                            <td>Partner</td>
+                                            <td>anu****@*****s.com</td>
+                                            <td>7011****</td>
+                                            <td>Anushika Anthon...</td>
+                                            <td>1 to 10</td>
+                                            <td>5 M</td>
+                                            <td>Brampton</td>
+                                            <td>N/A</td>
+                                            <td>https://ww***.com</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+
+                        <div class="line_breaker">
+                            <div class="line"></div>
+                            <!-- <div class="icon_box">
+                            <i class="fas fa-caret-left"></i><i class="fas fa-caret-right"></i>
+                            <div class="arrow-1 animated hinge infinite zoomIn"></div>
+                        </div> -->
+                        </div>
+
+
 
 
                         <section class="padding_40" style="background-color: #fff;">
@@ -1605,7 +1919,11 @@
                         <section class="page_part_offset p-0 pt-3" data-sectionname="FAQ" data-sectionnameindex="3"
                             style="background: #5a80a0;">
                             <div style="background-color: #ffffff;" class="padding_40 pb-5">
-                                <h4 class="text-center focus_tilte_with_line pt-5">FAQ</h4>
+                                <!-- <h4 class="text-center focus_tilte_with_line pt-5">FAQ</h4> -->
+
+                                <div class="focus_line_after_title">
+                                    <h4>FAQ</h4>
+                                </div>
 
                                 <p class="text-center" style="font-size: 25px;">We will explain
                                     everything simply, we understand it well enough.</p>
@@ -1745,7 +2063,12 @@
                         <section class="padding_40 py-5" style="background-color: #47657e;">
 
                             <div>
-                                <h4 class="text-center focus_tilte_with_line text-white">Working Process</h4>
+                                <!-- <h4 class="text-center focus_tilte_with_line text-white">Working Process</h4> -->
+
+                                <div class="focus_line_after_title">
+                                    <h4>Working Process</h4>
+                                </div>
+
                                 <p class="text-center" style="font-size: 25px;color: #9cb7cd !important;">We like to
                                     descrive what are doing as a process.</p>
                             </div>
@@ -1903,10 +2226,18 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
+    <!-- <script src="js/semantic.js"></script> -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/mainscript.js"></script>
     <script src="js/onscroll.js"></script>
+
+    <!-- <script>
+         $('#country_Name').dropdown();
+        $('#city_Name').dropdown();
+        $('#industry_Name').dropdown();
+
+    </script> -->
 
     <script>
         var getSidebar = document.querySelector('nav');

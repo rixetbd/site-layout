@@ -22,9 +22,22 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"> -->
     <link rel="stylesheet" href="css/notyf.min.css">
     <style>
-        /* *{
-            user-select: none;
-        } */
+        .home_service_box .content_box.industry h4{
+            position: relative;
+            font-weight: 700;
+            color: #5a80a0;
+            margin-bottom: 19px;
+            font-size: 17px;
+        }
+        .home_service_box .content_box.industry h4::after{
+            position: absolute;
+            content: '';
+            background-color: #5a80a0;
+            height: 2px;
+            bottom: -5px;
+            width: 80%;
+            left: 10%;
+        }
     </style>
 </head>
 
@@ -263,7 +276,7 @@
                                 <h3 class="service_group_title_two"><i class="fas fa-bullhorn me-2"></i> Digital
                                     Marketing</h3>
                                 <div class="mb-3">
-                                    <a class="help_text_root" href="service-mainpage.html">
+                                    <a class="help_text_root" href="lead-generation.html">
                                         <span class="service_group_title">Lead Generation Services</span>
                                         <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
                                         <p>With the help of lead generation services, your business will gain more
@@ -306,8 +319,8 @@
                                     </a>
                                 </div>
                                 <div class="mb-3">
-                                    <a class="help_text_root" href="#">
-                                        <span class="service_group_title">Content Marketing</span>
+                                    <a class="help_text_root" href="content-writing.html">
+                                        <span class="service_group_title">Content Writing</span>
                                         <span class="title_arrow"><i class="fas fa-angle-double-right"></i></span>
                                         <p>Make high-quality content that works to increase visitors from organic
                                             search.</p>
@@ -807,39 +820,88 @@
                         </section>
 
                         <section class="padding_40 clickable_links_area">
-                            <h5 class="text-white">You may need</h5>
-                            <div class="d-flex">
-                                <a href="#">B2B Lead Generation</a>
-                                <a href="#">B2C Lead Generation</a>
-                                <a href="#">On Page SEO</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">B2B Lead Generation</a>
-                                <a href="#">B2C Lead Generation</a>
-                                <a href="#">On Page SEO</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
-                                <a href="#">OFF Page SEO</a>
-                                <a href="#">WordPress Development</a>
-                                <a href="#">Web Application Development</a>
+                            <div class="p-4 service_need_list">
+                                <h5 class="text-white" style="background-color: #47657e;">You may need</h5>
+                                <div class="d-flex">
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">B2B Lead Generation</a>
+                                    <a href="#">B2C Lead Generation</a>
+                                    <a href="#">On Page SEO</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application Development</a>
+                                    <a href="#">OFF Page SEO</a>
+                                    <a href="#">WordPress Development</a>
+                                    <a href="#">Web Application</a>
+                                </div>
+                                <div id="service_need_list_more" class="cursor_pointer">More</div>
                             </div>
-
                         </section>
+
                         <section id="working_process" class="page_part_offset" data-sectionname="Our Working Process"
-                            data-sectionnameindex="1" style="background-color: #5a80a0;">
+                            data-sectionnameindex="1" style="background-color: #5a80a0;padding-right: 0;padding-left: 0;">
                             <div class="row">
                                 <div class="col-sm-12 col-md-3 d-flex justify-content-center">
-                                    <div class="content_box">
+                                    <div class="content_box w-100">
                                         <img src="./img/working-step-01.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-3 d-flex justify-content-center">
-                                    <div class="content_box">
+                                    <div class="content_box w-100">
                                         <div class="w-100 px-1">
                                             <img src="./img/working-step-02.png" alt="">
                                             <h4>Discuss your project plan</h4>
@@ -847,7 +909,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-3 d-flex justify-content-center">
-                                    <div class="content_box">
+                                    <div class="content_box w-100">
                                         <div class="w-100 px-1">
                                             <img src="./img/working-step-03.png" alt="">
                                             <h4>Expert team will execute</h4>
@@ -855,7 +917,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-3 d-flex justify-content-center">
-                                    <div class="content_box">
+                                    <div class="content_box w-100">
                                         <div class="w-100 px-1">
                                             <img src="./img/working-step-04.png" alt="">
                                             <h4>Recive your project within time</h4>
@@ -882,7 +944,12 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-md-2"></div>
                                     <div class="col-sm-12 col-md-8">
-                                        <h4 class="text-center focus_tilte_with_line">Industries We Serve</h4>
+                                        <!-- <h4 class="text-center focus_tilte_with_line">Industries We Serve</h4> -->
+
+                                        <div class="focus_line_after_title text_dark_theme bg_white">
+                                            <h4>Industries We Serve</h4>
+                                        </div>
+
                                         <p class="text-center" style="font-size: 25px;line-height: 35px !important;">We
                                             don't generalize — we are specialized. From tech companies to specialized
                                             industries, we have strategic solutions for your unique industry needs.</p>
@@ -902,7 +969,7 @@
                                                     <img src="img/industry-icons-01.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>SOFTWARE INDUSTRY</h4>
                                                 <p>We offer marketing services that will help your software industry prosper! Our services include but are not limited to: market research, website design, social promotion, and more. We know how to build a successful business.
                                                 </p>
@@ -923,7 +990,7 @@
                                                     <img src="img/industry-icons-02.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>HEALTHCARE INDUSTRY</h4>
                                                 <p>We support the core elements of your healthcare IT infrastructure to keep you up and running when and where it matters most. We are proud to be a leading provider of outsourced healthcare IT services</p>
                                             </div>
@@ -943,7 +1010,7 @@
                                                     <img src="img/industry-icons-03.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>LEGAL INDUSTRY</h4>
                                                 <p>We offer a multitude of services that can grow your law firm into a thriving practice! Our team can customize a multi-channel digital marketing strategy to achieve your specific firm goals.</p>
                                             </div>
@@ -963,7 +1030,7 @@
                                                     <img src="img/industry-icons-04.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>REAL ESTATE</h4>
                                                 <p>Our experience and understanding of real estate help us leverage technology to provide Services like leads list Building, Graphics Design, Digital marketing, responsive website, and SEO, which will significantly enhance your ROI.</p>
                                             </div>
@@ -983,7 +1050,7 @@
                                                     <img src="img/industry-icons-05.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>FASHION & BEAUTY</h4>
                                                 <p>Nowadays the fashion & beauty industries are nothing without an online presence. Our expertise can help you to build a stunning online entity for your business and improve your web presence through our digital marketing services.
                                                     </p>
@@ -1004,7 +1071,7 @@
                                                     <img src="img/industry-icons-06.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>RETAIL INDUSTRY</h4>
                                                 <p>Meet your customer needs and maintain online activities with our digital marketing and web-related Services. Find the right maintenance programs to keep you steady as you grow your customer base.</p>
                                             </div>
@@ -1024,7 +1091,7 @@
                                                     <img src="img/industry-icons-07.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>E-COMMERCE INDUSTRY</h4>
                                                 <p>E-Commerce and online marketing are the two sides of the coin. One is incomplete without the other. Our E-commerce solutions will help your business grow and reach your potential customers.
                                                     </p>
@@ -1045,7 +1112,7 @@
                                                     <img src="img/industry-icons-08.png" alt="">
                                                 </div>
                                             </div>
-                                            <div class="content_box">
+                                            <div class="content_box industry">
                                                 <h4>FINANCE INDUSTRY</h4>
                                                 <p>Since financial services are driven by technologies, we create compelling marketing solutions for various banking and finance groups worldwide to help them create loyal engagements with consumers through online portals.</p>
                                             </div>
@@ -1153,7 +1220,12 @@
                         <div class="row">
                             <div class="col-md-2"></div>
                             <div class="col-sm-12 col-md-8">
-                                <h4 class="text-center focus_tilte_with_line text-white">Find Our A to Z Services</h4>
+                                <!-- <h4 class="text-center focus_tilte_with_line text-white">Find Our A to Z Services</h4> -->
+
+                                <div class="focus_line_after_title text-white bg_theme">
+                                    <h4>Find Our A to Z Services</h4>
+                                </div>
+
                                 <p class="m-0 text-center text-white"
                                     style="font-size: 25px;line-height: 35px !important;">Dimarz can provide you with
                                     the service you
@@ -1986,74 +2058,16 @@
                         </div> -->
                     </div>
 
-                    <section class="single_part service_card_section overflow-hidden service_card_offset">
-                        <div class="row align-items-center">
-                            <div class="s_card">
-                                <div class="row">
-                                    <div class="p-0 rotate_box_main" style="background-color: #1b3348;">
-                                        <div class="rotate_box">
-                                            <div class="w-100">
-                                                <h6>Service</h6>
-                                                <hr>
-                                                <h5>Graphics Design</h5>
-                                                <hr>
-                                                <h4 class="m-0 p-0 underlined underlined--gradient">Social Media Design
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="s_card_content">
-                                        <div>
-                                            <div>
-                                                <h3>Social Media Design</h3>
-                                            </div>
-                                            <h4>Why Use Social Media Design Services?</h4>
-
-                                            <p>There are numerous benefits to using a social media design service.
-                                                Because
-                                                you need to be able to improve your audience's engagement on social
-                                                media
-                                                platforms. Additionally, a professional social media design service will
-                                                help you better understand your target audience and create engaging and
-                                                relevant content. As a result, you'll see more followers and positive
-                                                customer feedback.</p>
-
-                                            <h4>Social Media Design Services By DiMarz Team</h4>
-
-                                            <p>A social media design company will have the expertise to create engaging
-                                                and
-                                                eye-catching content. You can choose the DiMarz team because they'll
-                                                know
-                                                how to create content that will reach the right audience and their
-                                                interest.
-                                                Your message will more likely reach your targeted people interested in
-                                                what
-                                                you say.</p>
-
-                                            <p>DiMarz can assist you with maintaining your online presence on social
-                                                networks like Facebook, Instagram, Linkedin, Youtube, Twitter, and
-                                                Pinterest.</p>
-                                            <div class="s_card_absolute_2">
-                                                <a class="btn" href="#" style="font-size: 14px;"><span
-                                                        class="text_1">You
-                                                        can
-                                                        discover everything for your needs</span><span
-                                                        class="text_2">Visit
-                                                        Page <i class="fas fa-arrow-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </section>
-
-
+                
                     <section class="page_part_offset gigs_section gigs_faq_section p-0" data-sectionname="FAQ"
                         data-sectionnameindex="3">
                         <div style="background-color: #47657e;" class="padding_40 pb-5">
-                            <h4 class="text-center focus_tilte_with_line pt-5" style="color: #fff;">FAQ</h4>
+                            <!-- <h4 class="text-center focus_tilte_with_line pt-5" style="color: #fff;">FAQ</h4> -->
+
+                            <div class="focus_line_after_title bg_dark_theme text-white pt-5">
+                                <h4>FAQ</h4>
+                            </div>
+
                             <p class="text-center" style="font-size: 25px;line-height: 35px !important;color: #9ccaf1;">
                                 Ask the right question & you discover everything, We will explain
                                 everything simply, we understand it well enough.</p>
@@ -2462,10 +2476,11 @@
 
                     <!-- Testimonial || Start -->
                     <section class="testimonial-area padding_40">
-                        <div class="container">
+                        <div class="container" style="min-height: 100vh;">
                             <div class="sec-title white-title">
-                                <h2>Testimonials</h2>
-                                <p>What Client Say About Us?</p>
+                                <!-- <h2></h2> -->
+                                <h4 class="super_heading_text" style="font-size: 90px;color: #fff;font-weight: 900;font-family: 'Raleway', sans-serif;">Testimonials !</h4>
+                                <p style="font-size: 25px;line-height: 35px !important;">What Client Say About Us?</p>
                             </div>
                             <div class="testimonial-content owl-carousel">
                                 <!-- Single Testimonial -->
@@ -2478,7 +2493,7 @@
                                         book</p>
                                     <div class="client-info">
                                         <div class="client-video">
-                                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                                            <a href="#"><img src="img/play-button2.png" alt=""></a>
                                         </div>
                                         <div class="client-details">
                                             <h6>Yeasin Arafat</h6>
@@ -2496,26 +2511,7 @@
                                         book</p>
                                     <div class="client-info">
                                         <div class="client-video">
-                                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
-                                        </div>
-                                        <div class="client-details">
-                                            <h6>Yeasin Arafat</h6>
-                                            <span>Designer, LLCG Team</span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- Single Testimonial -->
-                                <div class="single-testimonial">
-                                    <div class="round-1 round"></div>
-                                    <div class="round-2 round"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book</p>
-                                    <div class="client-info">
-                                        <div class="client-video">
-                                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                                            <a href="#"><img src="img/play-button2.png" alt=""></a>
                                         </div>
                                         <div class="client-details">
                                             <h6>Yeasin Arafat</h6>
@@ -2534,7 +2530,7 @@
                                         book</p>
                                     <div class="client-info">
                                         <div class="client-video">
-                                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                                            <a href="#"><img src="img/play-button2.png" alt=""></a>
                                         </div>
                                         <div class="client-details">
                                             <h6>Yeasin Arafat</h6>
@@ -2553,7 +2549,26 @@
                                         book</p>
                                     <div class="client-info">
                                         <div class="client-video">
-                                            <a href="#"><img src="https://i.ibb.co/DWhSr6S/play-button2.png" alt=""></a>
+                                            <a href="#"><img src="img/play-button2.png" alt=""></a>
+                                        </div>
+                                        <div class="client-details">
+                                            <h6>Yeasin Arafat</h6>
+                                            <span>Designer, LLCG Team</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Single Testimonial -->
+                                <div class="single-testimonial">
+                                    <div class="round-1 round"></div>
+                                    <div class="round-2 round"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book</p>
+                                    <div class="client-info">
+                                        <div class="client-video">
+                                            <a href="#"><img src="img/play-button2.png" alt=""></a>
                                         </div>
                                         <div class="client-details">
                                             <h6>Yeasin Arafat</h6>

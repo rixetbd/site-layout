@@ -444,6 +444,9 @@ ul.li_space li {
     min-height: 125px;
     text-align: center;
 }
+.home_service_box .content_box.gig_page p{
+    min-height: unset;
+}
 
 .home_service_box ul.li_space {
     list-style: none;
